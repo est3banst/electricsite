@@ -1,0 +1,90 @@
+.container-about {
+    background-image: url(/imgs/planos.jpeg);
+    object-fit: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 120%;
+    min-width: 100%;
+    min-height: 560px;
+    display: flex;
+    flex-direction: column;
+}
+.reveal-box {
+    animation: slideInto 500ms ease-out;
+  }
+  @keyframes slideInto {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    30% {
+      transform: translateX(-50%);
+      opacity: .3;
+    }
+    70% {
+      transform: translateX(-10%);
+      opacity: .7;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    
+  }
+
+.container-sections {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    padding: 1.103rem;
+    height: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* mix-blend-mode: multiply; */
+    background: rgba(255, 255, 255, 0.539);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(203, 203, 203, 0.25);
+    border-radius: 8px;
+}
+.container-sections h2 {
+    font-size: 1.955rem;
+    font-family: 'Teko', sans-serif;
+}
+.section-about {
+    width: 100%;
+    padding: .333rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-about svg {
+    width: 45px;
+    height: 45px;
+    padding-right: 8px;
+    color: #1b940e;
+}
+.div-for-h2 {
+    margin: auto;
+    width: 50%;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.539);
+    backdrop-filter: blur(10px);
+}
+.div-for-h2 h2 {
+    font-family: 'Teko', sans-serif;
+    font-size: 1.8023rem;
+    font-weight: 500;
+    padding: 0 6px;
+    color: #000;
+    text-align: center;
+}
+.reveal-div {
+    animation: slideInto 1s ease-out;
+}
+
+.section-about p {
+    font-size: 1.1023rem;
+    color: #062f81;
+}
