@@ -89,11 +89,6 @@
 .hero-cta p {
     font-size: clamp(0.833rem, 1.682rem, 2.034rem);
 }
-.hero-cta-p strong {
-    text-decoration: underline;
-}
-
-
    @media (width < 500px) {
     .main-hero-section {
         min-height: 470px;
