@@ -4,7 +4,9 @@ export default function Whats() {
     return (
         <>
         <a href="https://wa.me/+59898414718?text=Hola,%20estoy%20interesado%20en%20un%20presupuesto%20para%20..">
+        
         <div className='container-whatsapp'>
+        <span>Chateá con nosotros </span>  
             <svg className='contact-whatsapp' width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5"
             stroke="currentColor" fill="none" strokeLinecap="round" 
             strokeLinejoin="round"><path stroke="none" d="M0 0h24v24H0z" 

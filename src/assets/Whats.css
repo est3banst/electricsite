@@ -1,18 +1,25 @@
 .container-whatsapp {
     position: fixed;
-    right: 5%;
+    right: 0;
     bottom: 0;
     width: 45px;
     height: 45px;
+    display: flex;
+    width: max-content;
     background-color: #25d366;
-    padding: .8742rem;
-    margin-right: 2.3rem;
+    padding: .2742rem;
+    margin-right: 2.08rem;
     margin-bottom: 2.1023rem;
-    border-radius: 50%;
+    border-radius: 8px;
     z-index: 888;
+}
+.container-whatsapp span {
+    margin: auto 0;
+    padding: .132rem;
+    color: #fff;
 }
 .contact-whatsapp {
     width: 45px;
     height: 45px;
-    color: #fff;
+    color: #fff4f4;
 }
