@@ -38,8 +38,11 @@ export default function HeroComp() {
                         </a><p>
                         a un profesional de confianza
                         </p>
+                        
               </section>
+              
             </div>
+            <p className='p-wedo'>INSTALACIONES ELÉCTRICAS INTEGRALES</p>
            </div> 
            <div className='container-img-hero'>
            </div>

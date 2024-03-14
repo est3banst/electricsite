@@ -57,6 +57,10 @@
     font-family: 'Teko', sans-serif;
     margin: auto 0;
 }
+.p-wedo {
+   color: #fff;
+   text-decoration: underline;
+}
 @keyframes phone-shaking {
     0% { transform: translateY(0) }
     25% { transform: translateY(2.5px) }

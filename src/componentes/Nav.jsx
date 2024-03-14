@@ -17,9 +17,9 @@ const Nav = () => {
         <header className='title-container'>
         
            <div className='container-menu-logo'>
-           <span className='logo-container'>
+           <a href='/' className='logo-container'>
             <img src='/imgs/saltologo.png' alt='brand logo' className='saltologo' />
-            </span>
+            </a>
             <div className='menu-bg'>
              <div id="nav-icon1" className={menuIco} onClick={settingOpen}>
                 <span></span>
