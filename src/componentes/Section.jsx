@@ -1,38 +1,14 @@
-import { useState, useRef, useEffect } from 'react'
+import { useRef } from 'react'
+import useAutoScroll from './hooks/useAutoScroll';
 import '../assets/Section.css'
 import { picsSection } from './data/picts'
 
 export default function Section () {
 
-    const [currentIdx, setCurrentIndex] = useState(0);
+    
     const heroRef = useRef();
+    const { currentIdx, goToPicture } = useAutoScroll(picsSection, 2500, heroRef)
 
-    useEffect(() => {
-        const heroImgs = heroRef.current
-       
-        const imgWidth = heroImgs.clientWidth;
-       
-        const scrollPosition = currentIdx * imgWidth;
-       
-        heroImgs.scrollTo({
-            left: scrollPosition,
-            behavior: 'smooth'
-        })
-      
-    },[currentIdx])
-
-    useEffect(() => {
-        const intervalId = setInterval(() => {
-          setCurrentIndex((prevIndex) => (prevIndex + 1) % picsSection.length);
-        }, 2500);
-    
-        return () => clearInterval(intervalId);
-      }, [currentIdx, picsSection.length]);
-    
-
-    const goToPicture = (indexPict) => {
-        setCurrentIndex(indexPict)
-    }
     return (
        <>
        <main className='main-hero-section'>
@@ -51,8 +27,9 @@ export default function Section () {
             </div>
             
         <div className="hero-cta">
-            <p className='hero-cta-p'>Más de 20 años de experiencia certificada por nuestros clientes.</p>  
-            <p className='hero-cta-p'>Comunicate hoy para agendar una visita sin costo!</p>
+            <p className='hero-cta-p'>Somos una empresa con más de 20 años de experiencia certificada por nuestros clientes.</p>  
+            <p className='hero-cta-p'>Nos especializamos en soluciones eléctricas integrales</p>
+
         </div>
           
        <div className='dot-for-img'>
