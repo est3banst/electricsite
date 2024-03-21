@@ -38,8 +38,8 @@
    align-items: center;
 }
 .header-social-icon {
-  width: 45px;
-  height: 45px;
+  width: 40px;
+  height: 40px;
 }
 #insta svg{
   border-radius: 20px;
@@ -57,7 +57,7 @@
 }
 .menu-bg {
    width: 70px;
-   border: 2px solid #000;
+   border: .5px solid #000;
    border-radius: 16px;
    
 }
@@ -85,7 +85,7 @@
   #nav-icon1 span{
     display: block;
     position: absolute;
-    height: 3px;
+    height: 2px;
     margin: 15% 0;
     border: 2px solid #fff;
     z-index: 150;
