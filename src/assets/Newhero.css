@@ -184,8 +184,8 @@
    border-radius: 16px;
 }
 .container-section-tablero section {
-   width: 520px;
-   height: 470px;
+   width: 90%;
+   height: 90%;
    background-color: #fff;
    background-image: url('/imgs/tableros2.png');
    background-repeat: no-repeat;
@@ -430,13 +430,19 @@
 
  @media screen and (width < 930px) {
    .section-container-fo {
-      min-height: 560px;
+      /* min-height: 560px; */
       flex-direction: column;
       height: auto;
+      width: 100%;
       padding-bottom: 1.167rem;
+   }
+   .section-container-fo section {
+      width: 90%;
    }
    .section-mainhero-container {
       height: auto;
+      min-height: 100vh;
+      padding: 1.167rem;
    }
    .container-images-hero {
       margin-bottom: 1.67rem;
@@ -463,16 +469,51 @@
  @media screen and (width < 520px) {
    .section-mainhero-container { 
       display: block;
+      padding: 0;
       padding-top: 1rem;
+   }
+   .upper-text1 {
+      width: 100%;
+      margin: auto 0;
+      padding: 0;
+   }
+   .upper-texth1 {
+      margin: 0;
+      width: 76.7%;
+      font-size: 1.9992rem;
    }
    .upper-text2 { 
       padding-top: 1rem;
       margin: auto;
    }
    .container-imgs-hero { 
-      
+      width: 100%;
+      padding: 2rem;
+      margin: 0 auto;
    }
    .section-container-fo {
+      height: auto;
       min-height: 560px;
+      width: 100%;
+   }
+   .section-container-fo section{
+      width: 90%;
+   }
+   .aside-img3 {
+      max-width: 380px;
+      width: 100%;
+   }
+   .aside-img3 section {
+      max-width: 350px;
+      width: 90%;
+   }
+   .aside-img4 {
+      width: 100%;
+      height: auto;
+      min-height: 400px;
+      max-width: 480px;
+   }
+   .aside-img4 section{
+      width: 90%;
    }
 }

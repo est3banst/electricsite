@@ -5,7 +5,8 @@
    padding-bottom: 1rem;
    border-top: 2px solid #939292;
    justify-content: center;
-   min-height: 840px;
+   min-height: 940px;
+   height: 100vh;
    max-width: 1500px;
    border-bottom: 2px solid #939292;
 }
@@ -88,14 +89,34 @@
 .hero-cta p {
     font-size: clamp(0.833rem, 1.682rem, 2.034rem);
 }
-   @media (width < 500px) {
+@media (width < 770px) {
+   .main-hero-section {
+    margin: 1rem 0 0 0;
+   }
+    .img-hero { 
+    width: 100%;
+   }
+   .container-imgs {
+    min-width: 770px;
+    aspect-ratio: 1/1;
+    width: 100%;
+   
+   }
+   .imgs-hero { 
+    min-width: 770px;
+    height: auto;
+    width: 100%;
+   }
+}
+
+   @media (width < 521px) {
     .main-hero-section {
+        height: 100vh;
         min-height: 570px;
         max-width: 520px;
-        padding-top: 1rem;
     }
     .container-section {
-        max-height: 500px;
+        max-height: 550px;
         
     }
     .imgs-hero {
