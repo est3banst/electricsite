@@ -1,0 +1,43 @@
+.hero-mid-section {
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+ }
+ .call-now-a {
+    display: flex;
+    justify-content: center;
+    width: max-content;
+     text-decoration: none;
+     padding: 6px 1.3rem;
+    text-transform: uppercase;
+     background-color: #058406; 
+     color: #fff;
+     border-radius: 6px;
+     font-weight: 600;
+     /* border: 2px solid #067407; */
+ }
+ .upper-text2-section2 {
+    display: flex;
+    margin: 1rem;
+ }
+ .upper-text2-section2 p, svg {
+    color: #fff;
+ }
+ .call-now-a svg {
+     padding:3px;
+     width: 30px;
+     height: 30px;
+     animation: phone-shaking 1200ms ease-in infinite;
+ }
+ .contact-now {
+     font-family: 'Inter', sans-serif;
+ }
+ @keyframes phone-shaking {
+    0% { transform: translateY(0) }
+    25% { transform: translateY(2.5px) }
+    50% { transform: translateY(-2.5px) }
+    75% { transform: translateY3(2.5px) }
+    100% { transform: translateY(0) }
+   }

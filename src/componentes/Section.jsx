@@ -27,7 +27,7 @@ export default function Section () {
             </div>
             
         <div className="hero-cta">
-            <p className='hero-cta-p'>Somos una empresa con más de 20 años de experiencia certificada por nuestros clientes.</p>  
+            <p className='hero-cta-p'>Más de 20 años de experiencia certificada por nuestros clientes.</p>  
             <p className='hero-cta-p'>Nos especializamos en soluciones eléctricas integrales</p>
 
         </div>

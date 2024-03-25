@@ -27,10 +27,12 @@
       transform: skewX(0deg);
       mix-blend-mode: multiply;
       z-index: 90;
+      height: 140px;
     }
     .saltologo {
         width: 200px;
         min-width: 180px;
+        transform: translateY(-13.33%)
     }
 
 .container-menu-logo {

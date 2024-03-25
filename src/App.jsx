@@ -5,7 +5,7 @@ import Nosotros from './componentes/About'
 import Contact from './componentes/Contact/Contact'
 import Whats from './componentes/Contact/Whats'
 import Footer from './componentes/Footer/Footer'
-import HeroComp from './componentes/HeroComp'
+import HeroComp from './componentes/Hero/HeroComp'
 
 
 import './index.css'
