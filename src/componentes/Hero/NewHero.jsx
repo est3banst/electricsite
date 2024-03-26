@@ -16,14 +16,14 @@ const NewHero = () => {
         <section className='section-mainhero-container'>
             <div className='container-cta-hero'>
             <div className='upper-text1'>
-                <h1 ref={titleRef} data-glitch='SALTO INSTALACIONES' 
+                <h1 ref={titleRef} data-glitch='SALTO' 
                 className=
                 {`upper-texth1 ${isTitleVisible ? 'reveal-title' : ''}`}
                 >
-                    Salto Instalaciones
+                    SALTO <p data-glitch='Instalaciones'>Instalaciones</p>
                 </h1>
                 <small className='small-salto'>{titletext}</small>
-                <section>
+                <section className='section-upperp'>
                     <p className='upper-textp'>
                         Somos una empresa abocada al servicio, mantenimiento y 
                         asesoramiento en el área de la electricidad y la electrónica.
