@@ -35,7 +35,10 @@ const NewHero = () => {
                     <ButtonContact />
                 </section>
                 <section className='upper-text2-section2'>
-                    <p>Agraciada 3120</p>
+                    <a 
+                    href="https://www.google.com/maps/place/Agraciada,+50000+Salto,+Departamento+de+Salto/@-31.3856407,-57.952567,17z/data=!3m1!4b1!4m6!3m5!1s0x95adc32acbacdc4b:0xf9099c5fd75d9aee!8m2!3d-31.3856407!4d-57.952567!16s%2Fg%2F1vlzck54?entry=ttu">
+                        <p>Agraciada 3120</p>
+                        
                     <svg 
                         width="24"  height="24"  viewBox="0 0 24 24"  
                         fill="none"  stroke="currentColor"  strokeWidth="2"  
@@ -46,6 +49,7 @@ const NewHero = () => {
                         -.585l-4.244 -4.243a8 8 0 1 1 13.403 -3.651" />
                         <path d="M16 22l5 -5" /><path d="M21 21.5v-4.5h-4.5" />
                     </svg>
+                    </a>
                 </section>
                 </div>
             </div>

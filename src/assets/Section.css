@@ -3,12 +3,18 @@
    margin: auto;
    flex-direction: column;
    padding-bottom: 1rem;
-   border-top: 2px solid #939292;
    justify-content: center;
    min-height: 940px;
    height: 100vh;
    max-width: 1500px;
    border-bottom: 2px solid #939292;
+   background: rgb(11,3,142);
+    background: linear-gradient(
+        90deg, rgba(11,3,142,1) 
+        5%, rgba(23,23,152,1) 
+        20%, rgba(13,94,183,1) 
+        46%, rgba(9,120,194,0.748358718487395) 
+        83%, rgba(232,237,255,1) 100%);
 }
 /* DIV CONTAINER */
 .container-section {
@@ -58,9 +64,10 @@
     justify-content: center;
 }
 .dots-img {
-    padding: 0 8px;
+    padding: 8px;
     color: #000;
     width: 20px;
+    color: #fff;
     height: 20px;
     font-size: 1.3rem;
     cursor: pointer;
@@ -68,7 +75,7 @@
 .dots-img.active { 
     width: 24px;
     height: 24px;
-    color: #067407;
+    color: #25d366;
 }
 
 .hero-cta {
@@ -91,7 +98,7 @@
 }
 @media (width < 770px) {
    .main-hero-section {
-    margin: 1rem 0 0 0;
+    margin: 0;
    }
     .img-hero { 
     width: 100%;
