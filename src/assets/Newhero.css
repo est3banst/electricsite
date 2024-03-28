@@ -106,9 +106,8 @@
 
 .upper-textp {
     color: #fff;
-    width: 70%;
-    margin-left: 1.5rem;
-    padding-top: 1rem;
+    width: 50%;
+   padding-top: 1rem;
     text-align: left;
     font-size: clamp(1rem, 1.487rem, 2.523rem)
 }

@@ -18,14 +18,14 @@
       justify-content: space-around;
       align-items: center;
       width: 100%;
-      gap: 1rem;
-      background: #cccccc;
+      gap: 1rem; 
+      background: #F5F6Fb;
    }
 
    .logo-container {
       animation: shift 5s ease-in-out infinite alternate;
       transform: skewX(0deg);
-      mix-blend-mode: multiply;
+      mix-blend-mode: darken;
       z-index: 90;
       height: 140px;
     }
