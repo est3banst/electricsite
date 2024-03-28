@@ -2,9 +2,8 @@ import '../../assets/Newhero.css'
 import { useInView } from 'react-intersection-observer'
 
 const HeroSecond = () => {
-
-  const { ref: sectRef,inView: isThisVisible } = useInView();
-  const { ref: sectToRef,inView: isAllThisVisible } = useInView();
+  const { ref: sectRef,inView: isThisVisible } = useInView({ threshold : 0 });
+  const { ref: sectToRef,inView: isAllThisVisible } = useInView({ threshold : 0 });
 
   return (
     <>
