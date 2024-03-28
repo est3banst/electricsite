@@ -4,7 +4,7 @@ import { useInView } from 'react-intersection-observer'
 const Nosotros = () => {
 
     const { ref: boxRef, inView: isBoxVisible } = useInView();
-    
+    const { ref: secondBoxRef, inView: isSecondBoxVisible } = useInView();
 
     return (
 
@@ -50,7 +50,7 @@ const Nosotros = () => {
     
     
         </div>
-        <div ref={boxRef} className={`div-for-h2 ${isBoxVisible ? 'reveal-div' : ''}`}>
+        <div ref={secondBoxRef} className={`div-for-h2 ${isSecondBoxVisible ? 'reveal-div' : ''}`}>
         <h2>Tu tranquilidad eléctrica comienza con nosotros</h2>
         </div>
 </div>
