@@ -1,5 +1,5 @@
 footer {
-    margin-top: 1rem;
+ 
     background-image: url(/imgs/footer-bg.jpeg);
     min-height: 250px;
     width: 100%;
@@ -7,7 +7,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 1.5rem;
     opacity: .9;
     padding-top: 1.5rem;
     background-position: 30% 80%;

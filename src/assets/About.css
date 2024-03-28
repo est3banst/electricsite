@@ -1,17 +1,15 @@
 .container-about {
     background-image: url(/imgs/planos.jpeg);
-    object-fit: contain;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-size: 120%;
     min-width: 100%;
-    min-height: 560px;
+    min-height: 600px;
     display: flex;
     flex-direction: column;
 }
 .reveal-box {
-    animation: slideInto 500ms ease-out;
+    animation: slideInto 700ms ease-out;
   }
   @keyframes slideInto {
     0% {
