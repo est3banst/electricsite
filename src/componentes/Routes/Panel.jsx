@@ -21,7 +21,7 @@ export default function Panel() {
                 <li className='carousel__slide'>
                     <figure>
                         <div>
-                        <img className='route-imgs' src="/imgs/work-galler/paneles/panel.jpg" alt="" />
+                        <img className='route-imgs' src="/imgs/fotos2/panels.jpeg" alt="" />
                         </div>
                         <figcaption>
                         Instalación de paneles solares
@@ -45,7 +45,7 @@ export default function Panel() {
                 <li className='carousel__slide'>
                     <figure>
                         <div>
-                        <img className='route-imgs' src="/imgs/work-galler/paneles/paneltwo.jpg" alt="" />
+                        <img className='route-imgs' src="/imgs/fotos2/panels2.jpeg" alt="" />
                         </div>
                         <figcaption>
                         Instalación de paneles solares
@@ -57,7 +57,7 @@ export default function Panel() {
                 <li className='carousel__slide'>
                     <figure>
                         <div>
-                        <img className='route-imgs' src="/imgs/work-galler/paneles/panelthree.jpg" alt="" />
+                        <img className='route-imgs' src="/imgs/fotos2/panels3.jpeg" alt="" />
                         </div>
                         <figcaption>
                         Instalación de paneles solares
@@ -69,7 +69,7 @@ export default function Panel() {
                 <li className='carousel__slide'>
                     <figure>
                         <div>
-                        <img className='route-imgs' src="/imgs/work-galler/paneles/panelfour.jpg" alt="" />
+                        <img className='route-imgs' src="/imgs/fotos2/panels4.jpeg" alt="" />
                         </div>
                         <figcaption>
                         Instalación de paneles solares
@@ -93,19 +93,19 @@ export default function Panel() {
                 </ul>  
             <ul className='carousel__thumbnails'>
                 <li>
-                    <label htmlFor='slide-1'><img src='/imgs/work-galler/paneles/panel.jpg' alt="" /></label>
+                    <label htmlFor='slide-1'><img src="/imgs/fotos2/panels.jpeg" alt="" /></label>
                 </li>
                 <li>
                     <label htmlFor='slide-2'><img src='/imgs/work-galler/paneles/panelone.jpg' alt="" /></label>
                 </li>
                 <li>
-                    <label htmlFor='slide-3'><img src='/imgs/work-galler/paneles/paneltwo.jpg' alt="" /></label>
+                    <label htmlFor='slide-3'><img src="/imgs/fotos2/panels2.jpeg" alt="" /></label>
                 </li>
                 <li>
-                    <label htmlFor='slide-4'><img src='/imgs/work-galler/paneles/panelthree.jpg' alt="" /></label>
+                    <label htmlFor='slide-4'><img src="/imgs/fotos2/panels3.jpeg" alt="" /></label>
                 </li>
                 <li>
-                    <label htmlFor='slide-5'><img src='/imgs/work-galler/paneles/panelfour.jpg' alt="" /></label>
+                    <label htmlFor='slide-5'><img src="/imgs/fotos2/panels4.jpeg" alt="" /></label>
                 </li>
                 <li>
                     <label htmlFor='slide-6'><img src='/imgs/work-galler/paneles/panelfive.jpg' alt="" /></label>

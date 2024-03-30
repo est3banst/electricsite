@@ -175,7 +175,7 @@ export default function House() {
                 <li className='carousel__slide'>
                     <figure>
                         <div>
-                        <img className='route-imgs' src="/imgs/work-galler/house/obrasix.jpg" alt="" />
+                        <img className='route-imgs' src="/imgs/fotodos.jpeg" alt="" />
                         </div>
                         <figcaption>
                         Instalaciones y asesoría en obras
@@ -187,7 +187,7 @@ export default function House() {
                 <li className='carousel__slide'>
                     <figure>
                         <div>
-                        <img className='route-imgs' src="/imgs/work-galler/house/obraeight.jpg" alt="" />
+                        <img className='route-imgs' src="/imgs/fotouno.jpeg" alt="" />
                         </div>
                         <figcaption>
                         Instalaciones y asesoría en obras
@@ -211,10 +211,10 @@ export default function House() {
                     <label htmlFor='slide-10'><img src='/imgs/work-galler/house/obraseven.jpg' alt="" /></label>
                 </li>
                 <li>
-                    <label htmlFor='slide-11'><img src='/imgs/work-galler/house/obrasix.jpg' alt="" /></label>
+                    <label htmlFor='slide-11'><img src='/imgs/fotodos.jpeg' alt="" /></label>
                 </li>
                 <li>
-                    <label htmlFor='slide-12'><img src='/imgs/work-galler/house/obraeight.jpg' alt="" /></label>
+                    <label htmlFor='slide-12'><img src='/imgs/fotouno.jpeg' alt="" /></label>
                 </li>
             </ul>
         </div>

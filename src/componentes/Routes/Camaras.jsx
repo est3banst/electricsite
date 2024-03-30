@@ -21,7 +21,7 @@ export default function Camaras() {
                 <li className='carousel__slide'>
                     <figure>
                         <div>
-                        <img className='route-imgs' src="/imgs/work-galler/cctv/cctv.jpeg" alt="" />
+                        <img className='route-imgs' src="/imgs/fotos/camera1.jpeg" alt="" />
                         </div>
                         <figcaption>
                         Sistemas de videovigilancia
@@ -45,7 +45,7 @@ export default function Camaras() {
                 <li className='carousel__slide'>
                     <figure>
                         <div>
-                        <img className='route-imgs' src="/imgs/work-galler/cctv/cctv2.jpg" alt="" />
+                        <img className='route-imgs' src="/imgs/fotos/camera2.jpeg" alt="" />
                         </div>
                         <figcaption>
                         Sistemas de videovigilancia
@@ -57,7 +57,7 @@ export default function Camaras() {
                 <li className='carousel__slide'>
                     <figure>
                         <div>
-                        <img className='route-imgs' src="/imgs/work-galler/cctv/cctv3.jpg" alt="" />
+                        <img className='route-imgs' src="/imgs/fotos/camera3.jpeg" alt="" />
                         </div>
                         <figcaption>
                         Sistemas de videovigilancia
@@ -69,7 +69,7 @@ export default function Camaras() {
                 <li className='carousel__slide'>
                     <figure>
                         <div>
-                        <img className='route-imgs' src="/imgs/work-galler/cctv/cctv4.jpg" alt="" />
+                        <img className='route-imgs' src="/imgs/fotos/camera4.jpeg" alt="" />
                         </div>
                         <figcaption>
                         Sistemas de videovigilancia
@@ -82,19 +82,19 @@ export default function Camaras() {
                 </ul>  
             <ul className='carousel__thumbnails'>
                 <li>
-                    <label htmlFor='slide-1'><img src='/imgs/work-galler/cctv/cctv.jpg' alt="" /></label>
+                    <label htmlFor='slide-1'><img src="/imgs/fotos/camera1.jpeg" alt="" /></label>
                 </li>
                 <li>
                     <label htmlFor='slide-2'><img src='/imgs/work-galler/cctv/cctv1.jpg' alt="" /></label>
                 </li>
                 <li>
-                    <label htmlFor='slide-3'><img src='/imgs/work-galler/cctv/cctv2.jpg' alt="" /></label>
+                    <label htmlFor='slide-3'><img src="/imgs/fotos/camera2.jpeg" alt="" /></label>
                 </li>
                 <li>
-                    <label htmlFor='slide-4'><img src='/imgs/work-galler/cctv/cctv3.jpg' alt="" /></label>
+                    <label htmlFor='slide-4'><img src="/imgs/fotos/camera3.jpeg" alt="" /></label>
                 </li>
                 <li>
-                    <label htmlFor='slide-5'><img src='/imgs/work-galler/cctv/cctv4.jpg' alt="" /></label>
+                    <label htmlFor='slide-5'><img src="/imgs/fotos/camera4.jpeg" alt="" /></label>
                 </li>
                 
             </ul>

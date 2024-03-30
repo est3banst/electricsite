@@ -1,20 +1,22 @@
 .section-container {
     background: #f4f4f4;
-    padding-top: 50px;
+    /* padding-top: 50px; */
   }
   
   .container-carousel {
-    max-width: 1044px;
+    max-width: 1244px;
     margin: 0 auto;
+    width: 100%;
     min-height: 400px;
-    padding: 0 20px;
   }
   
   .carousel {
+    padding-top: 30px;
     display: block;
     text-align: left;
+    mix-blend-mode: multiply;
     position: relative;
-    margin-bottom: 22px;
+    padding-bottom: 22px;
   }
   .carousel > input {
     clip: rect(1px, 1px, 1px, 1px);
@@ -112,6 +114,7 @@
     display: block;
     flex: 1 1 auto;
     object-fit: cover;
+    /* mix-blend-mode: screen; */
   }
   .carousel__slide figcaption {
     align-self: flex-end;
