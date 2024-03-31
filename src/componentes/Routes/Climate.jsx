@@ -26,7 +26,7 @@ export default function Climate() {
                         </div>
                         <figcaption>
                         Climatización de piscinas
-                            <span className='job-info'>Los modernos climatizadores para piscinas son eficientes,utilizando tecnologías 
+                            <span className='job-info'>Modernos climatizadores eficientes,utilizando tecnologías 
                         como bombas de calor o intercambiadores de calor. Estos sistemas pueden extraer 
                         calor del aire ambiente o de fuentes naturales, como el sol, para calentar el agua de la piscina.</span>
                         </figcaption>
@@ -39,7 +39,7 @@ export default function Climate() {
                         </div>
                         <figcaption>
                         Climatización de piscinas
-                            <span className='job-info'>Los modernos climatizadores para piscinas son eficientes,utilizando tecnologías 
+                        <span className='job-info'>Modernos climatizadores eficientes,utilizando tecnologías 
                         como bombas de calor o intercambiadores de calor. Estos sistemas pueden extraer 
                         calor del aire ambiente o de fuentes naturales, como el sol, para calentar el agua de la piscina.</span>
                         </figcaption>
@@ -52,7 +52,7 @@ export default function Climate() {
                         </div>
                         <figcaption>
                         Climatización de piscinas
-                            <span className='job-info'>Los modernos climatizadores para piscinas son eficientes,utilizando tecnologías 
+                        <span className='job-info'>Modernos climatizadores eficientes,utilizando tecnologías 
                         como bombas de calor o intercambiadores de calor. Estos sistemas pueden extraer 
                         calor del aire ambiente o de fuentes naturales, como el sol, para calentar el agua de la piscina.</span>
                         </figcaption>
@@ -65,7 +65,7 @@ export default function Climate() {
                         </div>
                         <figcaption>
                         Climatización de piscinas
-                            <span className='job-info'>Los modernos climatizadores para piscinas son eficientes,utilizando tecnologías 
+                        <span className='job-info'>Modernos climatizadores eficientes,utilizando tecnologías 
                         como bombas de calor o intercambiadores de calor. Estos sistemas pueden extraer 
                         calor del aire ambiente o de fuentes naturales, como el sol, para calentar el agua de la piscina.</span>
                         </figcaption>
@@ -78,7 +78,7 @@ export default function Climate() {
                         </div>
                         <figcaption>
                         Climatización de piscinas
-                            <span className='job-info'>Los modernos climatizadores para piscinas son eficientes,utilizando tecnologías 
+                        <span className='job-info'>Modernos climatizadores eficientes,utilizando tecnologías 
                         como bombas de calor o intercambiadores de calor. Estos sistemas pueden extraer 
                         calor del aire ambiente o de fuentes naturales, como el sol, para calentar el agua de la piscina.</span>
                         </figcaption>
@@ -91,7 +91,7 @@ export default function Climate() {
                         </div>
                         <figcaption>
                         Climatización de piscinas
-                            <span className='job-info'>Los modernos climatizadores para piscinas son eficientes,utilizando tecnologías 
+                        <span className='job-info'>Modernos climatizadores eficientes,utilizando tecnologías 
                         como bombas de calor o intercambiadores de calor. Estos sistemas pueden extraer 
                         calor del aire ambiente o de fuentes naturales, como el sol, para calentar el agua de la piscina.</span>
                         </figcaption>
