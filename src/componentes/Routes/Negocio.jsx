@@ -84,17 +84,17 @@ export default function Negocio() {
                     <label htmlFor='slide-1'><img src='/imgs/work-galler/negocios/lighting.jpeg' alt="" /></label>
                 </li>
                 <li>
-                    <label htmlFor='slide-1'><img src="/imgs/work-galler/negocios/lightsworkspace.jpeg" alt="" /></label>
+                    <label htmlFor='slide-2'><img src="/imgs/work-galler/negocios/lightsworkspace.jpeg" alt="" /></label>
                 </li>
                
                 <li>
-                    <label htmlFor='slide-1'><img src="/imgs/work-galler/negocios/lightswork.jpeg" alt="" /></label>
+                    <label htmlFor='slide-3'><img src="/imgs/work-galler/negocios/lightswork.jpeg" alt="" /></label>
                 </li>
                 <li>
-                    <label htmlFor='slide-1'><img src="/imgs/work-galler/negocios/lightsoff.jpeg"  alt="" /></label>
+                    <label htmlFor='slide-4'><img src="/imgs/work-galler/negocios/lightsoff.jpeg"  alt="" /></label>
                 </li>
                 <li>
-                    <label htmlFor='slide-1'><img src="/imgs/work-galler/negocios/workspace.jpeg" alt="" /></label>
+                    <label htmlFor='slide-5'><img src="/imgs/work-galler/negocios/workspace.jpeg" alt="" /></label>
                 </li>
                
                
