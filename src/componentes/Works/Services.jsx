@@ -31,8 +31,7 @@ export default function Services () {
       src={Tecnico}
       alt='Instalaciones eléctricas cumpliendo con reglamentación de UTE'
       title='Técnico autorizado por UTE' 
-      descr='Asesoría, planificación, y verificación de
-      instalaciones para hogar y comercio.'     
+      descr='Asesoría, planificación, e instalaciones completas para entornos corporativos'     
     />
     </Link>
     <Link to='/cctv'>
