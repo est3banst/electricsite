@@ -3,13 +3,12 @@ import { useInView } from 'react-intersection-observer'
 
 const Nosotros = () => {
 
-    const { ref: boxRef, inView: isBoxVisible } = useInView();
     const { ref: secondBoxRef, inView: isSecondBoxVisible } = useInView();
 
     return (
 
       <>
-    <div ref={boxRef} className={`container-about ${isBoxVisible ? 'reveal-box' : ''}`}>
+    <div className='container-about'>
         <div className='container-sections'>
         <h2>
             POR QUÉ ELEGIRNOS?

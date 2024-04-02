@@ -5,20 +5,17 @@
     background-size: cover;
     min-width: 100%;
     min-height: 600px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-}
-.reveal-box {
-    animation: slideInto 700ms ease-out;
-  }
-  
+} 
 
 .container-sections {
     width: 50%;
     margin: auto;
     display: flex;
     padding: 1.103rem;
-    height: 50%;
+    height: auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;

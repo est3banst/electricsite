@@ -20,7 +20,7 @@ const NewHero = () => {
                 className=
                 {`upper-texth1 ${isTitleVisible ? 'reveal-title' : ''}`}
                 >
-                    SALTO <p data-glitch='Instalaciones'>Instalaciones</p>
+                    SALTO <p> Instalaciones</p>
                 </h1>
                 <small className='small-salto'>{titletext}</small>
                 <section className='section-upperp'>

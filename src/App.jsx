@@ -7,14 +7,13 @@ import Whats from './componentes/Contact/Whats'
 import Footer from './componentes/Footer/Footer'
 import HeroComp from './componentes/Hero/HeroComp'
 
-
 import './index.css'
 
 function App() {
 
+
   return (
     <>  
-
       <Nav />
       <HeroComp />
       <Section />
@@ -23,7 +22,6 @@ function App() {
       <Contact />
       <Whats/>
       <Footer />
-    
     </>
   )
 }

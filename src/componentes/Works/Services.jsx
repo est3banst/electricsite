@@ -11,8 +11,10 @@ import Houselights from '/imgs/ilumina.jpeg'
 
 
 export default function Services () {
-    return (
+  
+  return (
         <>
+    
     <div className='container-color'>
             
         <h2 className='h2-services'>SERVICIOS</h2>
