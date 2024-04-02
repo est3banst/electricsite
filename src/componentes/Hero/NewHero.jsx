@@ -16,7 +16,7 @@ const NewHero = () => {
         <section className='section-mainhero-container'>
             <div className='container-cta-hero'>
             <div className='upper-text1'>
-                <h1 ref={titleRef} data-glitch='SALTO' 
+                <h1 ref={titleRef}
                 className=
                 {`upper-texth1 ${isTitleVisible ? 'reveal-title' : ''}`}
                 >
