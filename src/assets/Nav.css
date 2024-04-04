@@ -219,6 +219,8 @@
 @media (width < 520px) {
   .title-container {
     justify-content: center;
+    /* width: auto; */
+    /* box-sizing: border-box; */
   }
   .container-menu-logo {
     justify-content: space-evenly;

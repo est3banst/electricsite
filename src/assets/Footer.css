@@ -1,21 +1,26 @@
 footer {
  
     background-image: url(/imgs/footer-bg.jpeg);
-    min-height: 250px;
+    min-height: 300px;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1.5rem;
+    height: auto;
     opacity: .9;
     padding-top: 1.5rem;
-    background-position: 30% 80%;
+    background-position: 40% 80%;
 }
 
+.container-footer {
+    /* height: 30vh; */
+
+}
 
 .container-footer small {
-    font-size: 1.402rem;
+    font-size: 1.602rem;
     color: #ffffff;
     text-transform: uppercase;
     letter-spacing: 0.083200em;
@@ -34,7 +39,7 @@ footer {
     background: rgba(255,255,255,0.2);
     backdrop-filter: blur(5px);
     border-radius: 6px;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     border: 1px solid rgba(255,255,255,0.25);
 }
 .second-container-footer h3 {

@@ -14,6 +14,7 @@ function App() {
 
   return (
     <>  
+    <div id='main-app-container'>
       <Nav />
       <HeroComp />
       <Section />
@@ -22,6 +23,7 @@ function App() {
       <Contact />
       <Whats/>
       <Footer />
+      </div>
     </>
   )
 }
