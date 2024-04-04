@@ -34,7 +34,6 @@
     font-size: clamp(1.6689rem ,2.909rem, 3.232rem);
     font-weight: 800;
     text-align: left;
-    margin-left: 1.5rem;
     color: #f6f6f6;
     animation: slideIn 300ms infinite;
     -webkit-font-smoothing: antialiased;
@@ -69,7 +68,6 @@
   .small-salto {
     margin-top: .3rem;
     margin-bottom: 6px;
-    margin-left: 1.5rem;
     color: #fff;
     font-weight: 600;
     letter-spacing: 0.0934em;
