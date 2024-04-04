@@ -151,7 +151,7 @@
         object-fit: cover;
     }
     .hero-cta {
-        width: 60%;
+        width: 65%;
     }
     .call-now-a {
         padding: 0 .6rem;
@@ -160,6 +160,7 @@
     .hero-cta p {
         font-size: 18px;
         padding: 6px;
+        font-weight: 650;
     }
     
 }
