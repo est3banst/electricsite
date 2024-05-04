@@ -19,7 +19,7 @@ const Nav = () => {
         
            <div className='container-menu-logo'>
            <a href='/' className='logo-container'>
-            <img src='/imgs/saltologo.png' alt='brand logo' className='saltologo' />
+            <img src='/imgs/saltolog.svg' alt='brand logo' className='saltologo' />
             </a>
             <div className='menu-bg'>
              <div id="nav-icon1" className={menuIco} onClick={settingOpen}>

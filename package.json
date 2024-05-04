@@ -1,5 +1,6 @@
 {
   "name": "saltoinstalaciones",
+  "homepage": "https://saltoinstalaciones.com",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,6 +12,8 @@
   },
   "dependencies": {
     "@formspree/react": "^2.5.1",
+    "@ionic/react": "^7.8.4",
+    "@ionic/react-router": "^7.8.4",
     "@studio-freight/react-lenis": "^0.0.46",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
