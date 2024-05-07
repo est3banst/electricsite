@@ -11,10 +11,10 @@ const Nosotros = () => {
     <div className='container-about'>
         <div className='container-sections'>
         <h2>
-            POR QUÉ ELEGIRNOS?
+         POR QUÉ ELEGIRNOS?
         </h2>
     <section className='section-about'>
-        <svg className='svg-about' width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5" 
+        <svg className='svg-about' viewBox="0 0 24 24" strokeWidth="1.5" 
         stroke="currentColor" fill="none" strokeLinecap="round" 
         strokeLinejoin="round">
         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -25,7 +25,7 @@ const Nosotros = () => {
         </p>
     </section>
     <section className='section-about'>
-        <svg className='svg-about' width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5" 
+        <svg className='svg-about' viewBox="0 0 24 24" strokeWidth="1.5" 
         stroke="currentColor" fill="none" strokeLinecap="round" 
         strokeLinejoin="round">
         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -36,7 +36,7 @@ const Nosotros = () => {
         </p>
     </section>
     <section className='section-about'>
-        <svg className='svg-about' width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5" 
+        <svg className='svg-about' viewBox="0 0 24 24" strokeWidth="1.5" 
         stroke="currentColor" fill="none" strokeLinecap="round" 
         strokeLinejoin="round">
         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>

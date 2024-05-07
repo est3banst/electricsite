@@ -11,42 +11,45 @@
 .title-container {
       display: flex;
       padding: 0 16px;
-      justify-content: space-around;
+      justify-content: space-between;
       align-items: center;
       width: 100%;
-      gap: 1rem; 
       background: #F5F6Fb;
    }
 
    .logo-container {
       mix-blend-mode: darken;
       z-index: 90;
-      height: 140px;
+      height: 160px;
     }
     .saltologo {
-        width: 200px;
+        width: 280px;
+        height: 280px;
         min-width: 180px;
-        transform: translateY(-13.33%)
+        transform: translateY(-23.33%)
     }
 
 .container-menu-logo {
    display: flex;
+   padding: 0 1rem;
    align-items: center;
 }
 .header-social-icon {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
 }
+
 #insta svg{
   border-radius: 20px;
   color: #fff;
-  padding: 5px;
+  padding: 7px;
+  margin-right: 1rem;
   background: #d6249f;
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
   box-shadow: 0px 3px 10px rgba(0,0,0,.25);
 }
 #face svg{
-  padding: 5px;
+  padding: 7px;
   background: #3b5998;
   color: #f7f7f7;
   border-radius: 20px;
@@ -216,11 +219,21 @@
 	width: 120%;
 	outline: 5px solid rgb(2, 0, 36);
 }
+@media (width < 769px) {
+  .title-container {
+    gap: 1rem;
+  }
+  .span-for-svg {
+    padding: 0;
+    margin: auto;
+  }
+  #insta svg {
+    margin: 0;
+  }
+}
 @media (width < 520px) {
   .title-container {
     justify-content: center;
-    /* width: auto; */
-    /* box-sizing: border-box; */
   }
   .container-menu-logo {
     justify-content: space-evenly;
@@ -229,16 +242,16 @@
   .span-for-svg {
     display: flex;
     gap: .5rem;
-    margin-right: 1rem;
+    margin-right: 1.88rem;
   }
   .saltologo {
-    width: 220px;
+    width: 230px;
     margin-left: -3rem;
-    height: 220px;
+    height: 230px;
     transform: translateY(-25%);
   }
   .logo-container {
-    height: 110px;
+    height: 120px;
     animation: slideInto 750ms ease-out;
   }
   

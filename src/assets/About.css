@@ -11,14 +11,10 @@
 } 
 
 .container-sections {
-    width: 50%;
-    margin: auto;
+    margin: auto 0;
     display: flex;
-    padding: 1.103rem;
-    height: auto;
+    padding: 1.667rem;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background: rgba(255, 255, 255, 0.539);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(203, 203, 203, 0.25);
@@ -26,25 +22,29 @@
 }
 .container-sections h2 {
     font-size: 1.955rem;
+    text-align: center;
     font-family: 'Teko', sans-serif;
 }
 .section-about {
-    width: 100%;
-    padding: .333rem;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 6px;
+    border-bottom: .7px solid #020202;
 }
-.section-about svg {
-    width: 45px;
-    height: 45px;
+.svg-about{
+    width: 120px;
+    height: 120px;
+    box-sizing: content-box;
     padding-right: 8px;
     color: #1b940e;
 }
 .div-for-h2 {
     margin: auto;
-    width: 50%;
-    padding: 1rem;
+    width: 60%;
+    padding: 1rem 0;
     background: rgba(255, 255, 255, 0.539);
     backdrop-filter: blur(10px);
 }
@@ -83,4 +83,26 @@
     opacity: 1;
   }
   
+}
+
+@media (width > 768px) {
+  .container-sections {
+    max-width: 1200px;
+    width: 70%;
+    margin: auto;
+  }
+  .container-sections h2{
+    font-size: 3.3rem;
+    margin: auto;
+  }
+  .div-for-h2 h2 {
+    font-size: 2.77rem;
+  }
+  .svg-about {
+    width: 160px;
+    height: 160px;
+  }
+  .section-about p {
+    font-size: 2.3rem;
+  }
 }

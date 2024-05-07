@@ -20,14 +20,14 @@
  }
  .call-now-a svg {
      padding:3px 6px;
-     width: 30px;
-     height: 30px;
-     /* padding: 0 6px; */
+     width: 40px;
+     height: 40px;
+     box-sizing: content-box;
      animation: phone-shaking 1200ms ease-in infinite;
  }
  .contact-now {
      font-family: 'Inter', sans-serif;
-     font-size: clamp(.97rem, 1.258rem, 2.23rem);
+     font-size: clamp(.97rem, 1.558rem, 2.23rem);
 
  }
  @keyframes phone-shaking {
@@ -37,3 +37,17 @@
     75% { transform: translateY3(2.5px) }
     100% { transform: translateY(0) }
    }
+
+@media (width > 769px) {
+   .call-now-a {
+      margin: 0;
+   }
+  
+   .phone-now-icon {
+      width: 70px;
+      height: 70px;
+   }
+   .contact-now {
+      font-size: 1.982rem;
+   }
+}

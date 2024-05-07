@@ -31,7 +31,7 @@
     color: #fff;
     letter-spacing: 0.033em;
     position: relative;
-    font-size: clamp(1.6689rem ,2.909rem, 3.232rem);
+    font-size: clamp(1.6689rem ,3309rem, 4.232rem);
     font-weight: 800;
     text-align: left;
     color: #f6f6f6;
@@ -55,10 +55,10 @@
 
 .upper-textp {
     color: #fff;
-    width: 50%;
-   padding-top: 1rem;
+    width: 70%;
+   padding-top: 2rem;
     text-align: left;
-    font-size: clamp(1rem, 1.487rem, 2.523rem)
+    font-size: clamp(1rem, 1.787rem, 2.523rem)
 }
 .upper-text2 {
     display: flex;
@@ -107,7 +107,6 @@
     width: 500px;
     height: 410px;
     display: flex;
-    /* position: relative; */
     justify-content: center;
     align-items: center;
 }
@@ -227,7 +226,6 @@
       flex-direction: column;
       height: auto;
       width: 100%;
-      padding-bottom: 1.167rem;
    }
    .section-container-fo section {
       width: 90%;
@@ -249,7 +247,7 @@
       margin: auto;
    }
    .container-cta-hero {
-      padding: 1.67rem;
+      padding: 0 1.67rem;
       align-items: center;
    }
    .upper-text2 {
@@ -262,8 +260,9 @@
       margin-top: 0;
    }
    .main-hero-container {
-      max-width: 768px
+      max-width: 100%
    }  
+
 }
  @media screen and (width < 520px) {
    
@@ -272,6 +271,9 @@
       margin: auto 0;
       align-items: flex-start;
       padding: 0;
+   }
+   .upper-texth1 {
+      font-size: 2.923rem;
    }
    .section-upperp {
       width: 100%;
