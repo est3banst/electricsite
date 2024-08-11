@@ -3,7 +3,6 @@ import { useInView } from 'react-intersection-observer'
 
 const HeroSecond = () => {
   const { ref: sectRef,inView: isThisVisible } = useInView({ threshold : 0 });
-  const { ref: sectToRef,inView: isAllThisVisible } = useInView({ threshold : 0 });
 
   return (
     <>
@@ -31,11 +30,6 @@ const HeroSecond = () => {
                     </p>
                 </section>
             </div>
-            <section ref={sectToRef} className={`container-section-tablero ${isAllThisVisible ? 'tablero-in' : ''}`}>
-              <section>
-                  
-                  </section>
-            </section>
             
         </section>
     </>

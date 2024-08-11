@@ -130,6 +130,7 @@
 .section-container-fo {
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 100%;
     height: 100vh;
     position: relative;
@@ -157,31 +158,10 @@
     font-weight: 600;
     margin: .5rem;
 }
-.container-section-tablero { 
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   background-color: #FFF;
-   width: 540px;
-   height: 500px;
-   margin-bottom: 2.5rem;
-}
-.container-section-tablero section {
-   width: 100%;
-   height: 100%;
-   background-color: #fff;
-   background-image: url('/imgs/electric-compress.webp');
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: 50% 50%;
-}
+
 .heading-in {
    animation: slideIn 750ms ease-out;
 }
-.tablero-in {
-   animation: slideInto 750ms ease;
-}
-
 @keyframes slideIn {
    0% {
      transform: translateX(-100%);
@@ -220,13 +200,7 @@
  }
 
  @media screen and (width <= 1012px) {
-   .section-container-fo {
-       min-height: 560px;
-      flex-direction: column;
-      height: auto;
-      width: 100%;
-   }
-   
+  
    .section-mainhero-container {
       height: auto;
       min-height: 100vh;
@@ -286,11 +260,6 @@
       width: 100%;
       padding: 2rem;
       margin: 0 auto;
-   }
-   .section-container-fo {
-      height: auto;
-      min-height: 560px;
-      width: 100%;
    }
    .aside-img3 {
       max-width: 380px;

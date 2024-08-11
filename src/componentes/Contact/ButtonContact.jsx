@@ -5,7 +5,9 @@ const ButtonContact = () => {
     <div>
         <a className='call-now-a' href="tel://+59898414718">
                         
-                    <p className='contact-now'>Contáctanos</p>
+                  <div className='contactsvg'>
+                  <p className='contact-now'>Contáctanos</p>
+                    
                     <svg className='phone-now-icon' width="24" height="24" viewBox="0 0 24 24" 
                     strokeWidth="2" 
                     stroke="currentColor" 
@@ -16,7 +18,10 @@ const ButtonContact = () => {
                     -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
                     <path d="M15 9l5 -5" /><path d="M15 5l0 4l4 0" />
                     </svg>
-                            
+                  </div>
+                  <span className='horarios'>
+                  <small>Lunes a Viernes 9:00 - 18:00</small>
+                  </span>  
             </a>
     </div>
   )

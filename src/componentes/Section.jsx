@@ -36,7 +36,7 @@ export default function Section () {
             
         <div className="hero-cta">
             <p className='hero-cta-p'>Más de 20 años de experiencia certificada por nuestros clientes.</p>  
-            <p className='hero-cta-p'>Nos especializamos en soluciones eléctricas integrales</p>
+            <p className='hero-cta-p'>Asesoría de primera mano para soluciones energéticas sustentables</p>
                 <ButtonContact
                 />
         </div>
