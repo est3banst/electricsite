@@ -2,6 +2,7 @@ import { useRef } from 'react'
 import useAutoScroll from './hooks/useAutoScroll';
 import '../assets/Section.css'
 import { picsSection } from './data/picts'
+import ButtonContact from './Contact/ButtonContact';
 
 export default function Section () {
 
@@ -13,7 +14,14 @@ export default function Section () {
        <>
        <main className='main-hero-section'>
         <div className='container-section'>
-           <ul ref={heroRef} 
+
+        <video src="/imgs/work-galler/paneles/panelsvidcomp.mp4"
+        className="bg-video"
+        autoPlay
+        loop
+        muted
+        />
+           {/* <ul ref={heroRef} 
            className='imgs-hero' >
             {picsSection.map((pict, index) => (
                 <li className='container-imgs' key={index}>
@@ -23,16 +31,17 @@ export default function Section () {
                     alt="" />
                 </li>
             ))}
-           </ul>
+           </ul> */}
             </div>
             
         <div className="hero-cta">
             <p className='hero-cta-p'>Más de 20 años de experiencia certificada por nuestros clientes.</p>  
             <p className='hero-cta-p'>Nos especializamos en soluciones eléctricas integrales</p>
-
+                <ButtonContact
+                />
         </div>
           
-       <div className='dot-for-img'>
+       {/* <div className='dot-for-img'>
             {
                 picsSection.map((_, ind) => (
                     <div 
@@ -43,7 +52,7 @@ export default function Section () {
                         </div>
                 ))
             }
-           </div>
+           </div> */}
             
        </main>
        </> 

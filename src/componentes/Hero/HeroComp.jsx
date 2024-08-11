@@ -9,6 +9,7 @@ export default function HeroComp() {
         <>
          <div className='hero-main-container'>
          
+
          <NewHero />
 
          <HeroSecond />

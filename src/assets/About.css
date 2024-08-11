@@ -86,6 +86,10 @@
 }
 
 @media (width > 768px) {
+
+  .container-about {
+    height: 130vh;
+  }
   .container-sections {
     max-width: 1200px;
     width: 70%;
@@ -97,6 +101,7 @@
   }
   .div-for-h2 h2 {
     font-size: 2.77rem;
+    margin: .4rem 0;
   }
   .svg-about {
     width: 160px;
@@ -104,5 +109,14 @@
   }
   .section-about p {
     font-size: 2.3rem;
+  }
+}
+@media (width > 522px) {
+  .div-for-h2 {
+    margin: auto;
+    width: 80%;
+  }
+  .div-for-h2 h2 {
+    font-size: 2.363rem;
   }
 }
