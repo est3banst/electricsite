@@ -7,13 +7,10 @@ export default function HeroComp() {
     return (
         <>
          <div className=''>
-         
-
          <NewHero />
-
          <HeroSecond />
          </div>
-            </>
+        </>
     )
 }
 

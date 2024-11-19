@@ -9,10 +9,6 @@ import ButtonContact from '../Contact/ButtonContact'
 const NewHero = () => {
     const { ref: titleRef, inView: isTitleVisible } = useInView();
 
-    const { ref: imgRef, inView: isHeroVis } = useInView();
-    const { ref: img2Ref, inView: isAllHeroVis } = useInView();
-
-
     const titletext = useTypingEffect("SERVICIO TÉCNICO ESPECIALIZADO", 100);
     
   return (
@@ -55,15 +51,6 @@ const NewHero = () => {
                     </svg>
                 </a>
                
-                </div>
-            </div>
-            <div  className='container-images-hero'>
-            <div ref={imgRef} className={`aside-img3 ${isHeroVis ? 'reveal-imgs' : ''}`}>
-                <section></section>
-                </div>
-            <div ref={img2Ref} className={`aside-img4 ${isAllHeroVis ? 'reveal-img2' : ''}`}>
-                <section>
-                </section>
                 </div>
             </div>
         </section>

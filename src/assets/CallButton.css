@@ -14,15 +14,8 @@
  .phone-ico {
      padding:3px 6px;
      box-sizing: content-box;
-     animation: phone-shaking 1200ms ease-in infinite;
  }
  .contact-now {
      font-family: 'Inter', sans-serif;
  }
- @keyframes phone-shaking {
-    0% { transform: translateY(0) }
-    25% { transform: translateY(2.5px) }
-    50% { transform: translateY(-2.5px) }
-    75% { transform: translateY3(2.5px) }
-    100% { transform: translateY(0) }
-   }
+
