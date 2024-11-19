@@ -9,57 +9,24 @@
     font-family: 'Inter', sans-serif;
     }
     
-.container-cta-hero {
-   display: flex;
-   flex: 1;
-   width: 100%;
-   align-items: center;
-   flex-direction: column;
-   justify-content: space-around;
+.custom-h1 {
+   letter-spacing: 0.033em;
+   position: relative;
+   text-align: left;
+   animation: slideIn 300ms infinite;
+   -webkit-font-smoothing: antialiased;
+ }
+.custom-hero {
+   background-color: rgba(0, 0, 0, .25);
+   backdrop-filter: blur(8px);
+   padding: 1rem;
+   border-radius: 26px;
+   border-left: 1px solid #fff;
 }
-.upper-text1 {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-.section-upperp {
-   display: flex;
-   justify-content: center;
-}
-
-.upper-texth1 {
-    color: #fff;
-    letter-spacing: 0.033em;
-    position: relative;
-    font-size: clamp(1.6689rem ,3309rem, 4.232rem);
-    font-weight: 800;
-    text-align: left;
-    color: #f6f6f6;
-    animation: slideIn 300ms infinite;
-    -webkit-font-smoothing: antialiased;
-    text-shadow: -1px 5px 7px rgba(54, 48, 48, 0.92);
-}
-
-  .small-salto {
-    margin-top: .3rem;
-    margin-bottom: 6px;
-    color: #fff;
-    font-weight: 600;
-    letter-spacing: 0.0934em;
-    font-style: italic;
-  }
-
   .reveal-title {
     animation: slideIn 500ms ease-out;
   }
 
-.upper-textp {
-    color: #fff;
-    width: 70%;
-   padding-top: 2rem;
-    text-align: left;
-    font-size: clamp(1rem, 1.787rem, 2.523rem)
-}
 .upper-text2 {
     display: flex;
     margin-left: 1.5rem;
@@ -162,6 +129,7 @@
 .heading-in {
    animation: slideIn 750ms ease-out;
 }
+
 @keyframes slideIn {
    0% {
      transform: translateX(-100%);
@@ -204,7 +172,6 @@
    .section-mainhero-container {
       height: auto;
       min-height: 100vh;
-      padding-top: 1.167rem;
       padding-bottom: 0;
    }
    .container-images-hero {
@@ -213,9 +180,7 @@
    .div-container-fo { 
       margin: 0 auto;
    }
-   .upper-text1 {
-      margin: auto;
-   }
+ 
    .container-cta-hero {
       padding: 0 1.67rem;
       align-items: center;
@@ -236,22 +201,7 @@
 }
  @media screen and (width < 520px) {
    
-   .upper-text1 {
-      width: 100%;
-      margin: auto 0;
-      align-items: flex-start;
-      padding: 0;
-   }
-   .upper-texth1 {
-      font-size: 2.923rem;
-   }
-   .section-upperp {
-      width: 100%;
-      display: block;
-   }
-   .upper-textp {
-      width: 90%;
-   }
+  
    .upper-text2 { 
       padding-top: 1rem;
       margin: auto;

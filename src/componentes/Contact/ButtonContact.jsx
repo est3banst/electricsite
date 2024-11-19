@@ -3,12 +3,12 @@ import '../../assets/CallButton.css'
 const ButtonContact = () => {
   return (
     <div>
-        <a className='call-now-a' href="tel://+59898414718">
+        <a className='call-a-cust flex items-center hover:bg-[#058405c1]' href="tel://+59898414718">
                         
-                  <div className='contactsvg'>
-                  <p className='contact-now'>Contáctanos</p>
+                  <div className='flex items-center'>
+                  <p className='text-sm md:text-base lg:text-xl'>Contáctanos</p>
                     
-                    <svg className='phone-now-icon' width="24" height="24" viewBox="0 0 24 24" 
+                    <svg className='phone-ico' width="24" height="24" viewBox="0 0 24 24" 
                     strokeWidth="2" 
                     stroke="currentColor" 
                     fill="none" strokeLinecap="round" 
@@ -19,7 +19,7 @@ const ButtonContact = () => {
                     <path d="M15 9l5 -5" /><path d="M15 5l0 4l4 0" />
                     </svg>
                   </div>
-                  <span className='horarios'>
+                  <span className='text-xs md:text-sm lg:text-base'>
                   <small>Lunes a Viernes 9:00 - 18:00</small>
                   </span>  
             </a>

@@ -1,25 +1,26 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+
+/* Whatsapp */
+
+.custom-whatsapp {
+    
+    box-sizing: content-box;
+                  
+    background-color: #25d366;
+   
+    border-radius: 8px;
  
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
-
-body {
-  margin: 0;
-}
-* {
-  margin: 0;
-  box-sizing: border-box;
-}
-
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  
+.container-whatsapp span {
+    margin: auto 0;
+    padding: .132rem;
+    color: #fff;
 }

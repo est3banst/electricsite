@@ -1,37 +1,23 @@
 
- .call-now-a {
-   display: flex;
+ .call-a-cust {
    width: max-content;
    flex-direction: column;
    text-decoration: none;
-   padding: 10px 1.3rem;
+   padding: 10px;
    text-transform: uppercase;
    background-color: #058406; 
    color: #fff;
-   border-radius: 6px;
+   border-radius: 40px;
    font-weight: 700;
  }
- .upper-text2-section2 {
-    display: flex;
-    margin: 1rem auto;
- }
- .contactsvg {
-   display: flex;
- }
- .upper-text2-section2 p, svg {
-    color: #fff;
- }
- .call-now-a svg {
+
+ .phone-ico {
      padding:3px 6px;
-     width: 40px;
-     height: 40px;
      box-sizing: content-box;
      animation: phone-shaking 1200ms ease-in infinite;
  }
  .contact-now {
      font-family: 'Inter', sans-serif;
-     font-size: clamp(.97rem, 1.558rem, 2.23rem);
-
  }
  @keyframes phone-shaking {
     0% { transform: translateY(0) }
@@ -40,17 +26,3 @@
     75% { transform: translateY3(2.5px) }
     100% { transform: translateY(0) }
    }
-
-@media (width > 769px) {
-   .call-now-a {
-      margin: 0;
-   }
-  
-   .phone-now-icon {
-      width: 70px;
-      height: 70px;
-   }
-   .contact-now {
-      font-size: 1.982rem;
-   }
-}

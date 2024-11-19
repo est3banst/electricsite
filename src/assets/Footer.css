@@ -1,6 +1,11 @@
 footer {
- 
-    background-image: url(/imgs/footer-bg.jpeg);
+    background: rgb(11,3,142);
+    background: linear-gradient(
+     90deg, rgba(11,3,142,1) 
+     5%, rgba(23,23,152,1) 
+     20%, rgba(13,94,183,1) 
+     46%, rgba(9,120,194,0.748358718487395) 
+     95%, rgba(8,137,205,0.8888) 100%);
     min-height: 300px;
     width: 100%;
     display: flex;
@@ -11,12 +16,6 @@ footer {
     height: auto;
     opacity: .9;
     padding-top: 1.5rem;
-    background-position: 40% 80%;
-}
-
-.container-footer {
-    /* height: 30vh; */
-
 }
 
 .container-footer small {

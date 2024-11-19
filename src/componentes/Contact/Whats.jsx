@@ -1,13 +1,11 @@
-import '../../assets/Whats.css'
-
 export default function Whats() {
     return (
         <>
         <a href="https://wa.me/+59898414718?text=Hola,%20estoy%20interesado%20en%20un%20presupuesto%20para%20..">
         
-        <div className='container-whatsapp'>
-        <span>Chateá con nosotros </span>  
-            <svg className='contact-whatsapp' width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5"
+        <div className='custom-whatsapp p-1 fixed text-slate-50 z-[989] bottom-0 right-0 flex w-max items-center'>
+        <span className='text-xs md:text-sm lg:text-base'>Chateá con nosotros </span>  
+            <svg className='' width="32" height="32" viewBox="0 0 24 24" strokeWidth="1.5"
             stroke="currentColor" fill="none" strokeLinecap="round" 
             strokeLinejoin="round"><path stroke="none" d="M0 0h24v24H0z" 
             fill="none"/><path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
