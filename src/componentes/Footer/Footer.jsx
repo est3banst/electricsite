@@ -11,8 +11,10 @@ export default function Footer () {
         <Form></Form>
 
         <div className='container-footer'>
-           <a className='footer-a' href="https://www.google.com/maps/place/Agraciada,+50000+Salto,+Departamento+de+Salto/@-31.3885067,-57.9379319,17z/data=!4m10!1m2!2m1!1sAgraciada!3m6!1s0x95adc32acbacdc4b:0xf9099c5fd75d9aee!8m2!3d-31.3856407!4d-57.952567!15sCglBZ3JhY2lhZGGSAQVyb3V0ZeABAA!16s%2Fg%2F1vlzck54?entry=ttu">
-           <small>Salto, Uruguay 
+           <a 
+           className='flex text-slate-50 w-full justify-center text-base md:text-xl lg:text-2xl items-center' 
+           href="https://www.google.com/maps/place/Agraciada,+50000+Salto,+Departamento+de+Salto/@-31.3885067,-57.9379319,17z/data=!4m10!1m2!2m1!1sAgraciada!3m6!1s0x95adc32acbacdc4b:0xf9099c5fd75d9aee!8m2!3d-31.3856407!4d-57.952567!15sCglBZ3JhY2lhZGGSAQVyb3V0ZeABAA!16s%2Fg%2F1vlzck54?entry=ttu">
+           Salto, Uruguay 
            <svg width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5"
                 stroke="currentColor" fill="none" strokeLinecap="round" 
                 strokeLinejoin="round"><path stroke="none" d="M0 0h24v24H0z" 
@@ -21,12 +23,12 @@ export default function Footer () {
                 -4.243a8 8 0 1 1 13.403 -3.651" />
             <path d="M16 22l5 -5" /><path d="M21 21.5v-4.5h-4.5" />
            </svg>
-            </small>
+    
            </a>
         </div>
-        <div className='second-container-footer'>
+        <div className='text-slate-50 text-xs md:text-base cont-footer p-4 mb-5'>
             <small>Horario de atención: Lunes a Viernes de 8:00 a 18:00</small>
-        <h3>SALTO INSTALACIONES &trade;</h3>
+            <h3>SALTO INSTALACIONES &trade;</h3>
         </div>
         </footer>
         </>
