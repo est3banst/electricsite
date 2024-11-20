@@ -6,7 +6,7 @@ export default function HeroComp() {
     
     return (
         <>
-         <div className=''>
+         <div className='h-full'>
          <NewHero />
          <HeroSecond />
          </div>

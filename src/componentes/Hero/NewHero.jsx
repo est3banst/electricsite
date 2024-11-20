@@ -1,37 +1,71 @@
 import { useTypingEffect } from '../hooks/useTypingEffect'
+import { useState, useEffect } from 'react'
 import { useInView } from 'react-intersection-observer'
 import '../../assets/Newhero.css'
 import ButtonContact from '../Contact/ButtonContact'
 
 
-
+const imgs = [
+    {
+        imgSrc: '/imgs/huge-hero.jpeg',
+    },
+    {
+        imgSrc: '/imgs/w-img.jpeg',
+    },
+    {
+        imgSrc: '/imgs/huge-hero2.jpg'
+    }
+]
 
 const NewHero = () => {
+    const [currentImageIndex, setCurrentImageIndex] = useState(0);
+    const [prevImageIndex, setPrevImageIndex] = useState(null);
     const { ref: titleRef, inView: isTitleVisible } = useInView();
 
     const titletext = useTypingEffect("SERVICIO TÉCNICO ESPECIALIZADO", 100);
     
+    useEffect(() => {
+        const interval = setInterval(() => {
+          setPrevImageIndex(currentImageIndex);
+          setCurrentImageIndex((prevIndex) => (prevIndex + 1) % imgs.length);
+        }, 2000); 
+        return () => clearInterval(interval);
+      }, [currentImageIndex]);
+    
+
   return (
     <>
-        <section className='section-mainhero-container'>
-            <div 
+        <section className='h-[100vh] relative'>
+        {prevImageIndex !== null && (
+          <div
             style={{
-                backgroundImage: 'url(/imgs/huge-hero.jpeg)',
-                backgroundSize: 'cover',
-                backgroundPosition: '80% 50%',
-                backgroundRepeat: 'no-repeat'
+              backgroundImage: `url(${imgs[prevImageIndex].imgSrc})`,
+              backgroundPosition: '50% 50%',
+              backgroundRepeat: 'no-repeat',
             }}
-            className='flex justify-end h-[100vh]'>
-            <div className='custom-hero w-[50%] md:w-[40%] lg:w-[30%] my-auto'>
+            className="absolute inset-0 w-full h-full bg-cover opacity-100 transition-opacity duration-1000"
+          ></div>
+        )}
+
+        <div
+          style={{
+            backgroundImage: `url(${imgs[currentImageIndex].imgSrc})`,
+            backgroundPosition: '50% 50%',
+            backgroundRepeat: 'no-repeat',
+          }}
+          className="absolute inset-0 w-full h-full bg-cover opacity-0 transition-opacity duration-1000"
+        ></div>
+            <div className='h-[100vh] w-[100vw] mx-auto flex'>
+            <div className='custom-hero w-[60%] md:w-[40%] lg:w-[30%] mr-4 my-auto'>
             <h1 ref={titleRef}
                 className=
-                {`text-3xl py-4 md:text-4xl text-slate-100 font-extrabold lg:text-6xl custom-h1 ${isTitleVisible ? 'reveal-title' : ''}`}
+                {`text-2xl py-4 md:text-3xl text-slate-100 font-extrabold lg:text-4xl custom-h1 ${isTitleVisible ? 'reveal-title' : ''}`}
                 >
                     SALTO Instalaciones
                 </h1>
                 <small className='my-4 text-slate-100 italic text-xs md:text-sm lg:text-base font-semibold'>{titletext}</small>
                 <section className='my-5'>
-                    <p className='text-slate-100 text-xl md:text-2l lg:text-3xl'>
+                    <p className='text-slate-100 text-xs md:text-sm lg:text-xl'>
                         Somos una empresa abocada al servicio, mantenimiento y 
                         asesoramiento en el área de la electricidad y la electrónica.
                     </p>
@@ -52,7 +86,8 @@ const NewHero = () => {
                 </a>
                
                 </div>
-            </div>
+                </div>
+           
         </section>
 
     </>

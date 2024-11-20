@@ -38,9 +38,10 @@
     left: 0;
     width: 100%;
     z-index: 888;
-    list-style-type: none;background: rgb(212,208,208);
+    list-style-type: none;
+    background: rgb(212,208,208);
     background-color: #F5F6Fb;
-    color: white;
+    color: #020202;
     transition: all 350ms ease-in-out;
     padding: 2rem;
     visibility: visible;
@@ -48,7 +49,7 @@
 
 .nav-link-a {
     text-decoration: none;
-    color: #fff;
+    color: #020202;
     transition: 300ms ease;
     
 }

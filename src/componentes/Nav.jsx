@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { MotionConfig, motion } from "framer-motion";
-
 import { Link } from 'react-router-dom';
-
 import '../assets/Nav.css';
 
 
@@ -50,8 +48,8 @@ const Nav = () => {
             </span>
            <div className='flex items-center justify-center'>
            
-            <div className="grid h-full text-slate-800 place-content-center bg-transparent">
-             <AnimatedHamburgerButton id="nav-icon1" className={`text-slate-800 ${menuIco}`} onClick={settingOpen}>
+            <div className="grid h-full text-slate-800 place-content-center bg-transparent" onClick={settingOpen}>
+             <AnimatedHamburgerButton id="nav-icon1" className={`text-slate-800 ${menuIco}`}>
           
             </AnimatedHamburgerButton> 
             </div>
