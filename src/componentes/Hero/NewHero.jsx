@@ -19,7 +19,7 @@ const imgs = [
 
 const NewHero = () => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
-    const [prevImageIndex, setPrevImageIndex] = useState(null);
+    const [prevImageIndex, setPrevImageIndex] = useState(1);
     const { ref: titleRef, inView: isTitleVisible } = useInView();
 
     const titletext = useTypingEffect("SERVICIO TÉCNICO ESPECIALIZADO", 100);
