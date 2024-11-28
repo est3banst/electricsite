@@ -16,7 +16,7 @@ const HeroSecond = () => {
                 </h2>
                 <hr />
                 <section className='py-4 section-for-pfo'>
-                    <p className='text-neutral-900 py-2 text-base md:text-xl lg:text-2xl'>Obras Eléctricas
+                    <p className='text-neutral-900 py-2 text-base md:text-xl lg:text-2xl'>Red fibra óptica
                     </p>
                     <p className='text-neutral-900 py-2 text-base md:text-xl lg:text-2xl'>Instalaciones Eléctricas
                     </p>

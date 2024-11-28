@@ -10,6 +10,12 @@ const imgs = [
         imgSrc: '/imgs/huge-hero.jpeg',
     },
     {
+      imgSrc : '/imgs/hugo-tr.jpeg',
+    },
+    {
+      imgSrc : '/imgs/hugo-fr-o.jpeg'
+    },
+    {
         imgSrc: '/imgs/w-img.jpeg',
     },
     {
@@ -59,7 +65,7 @@ const NewHero = () => {
             <div className='custom-hero w-[60%] md:w-[40%] lg:w-[30%] mr-4 my-auto'>
             <h1 ref={titleRef}
                 className=
-                {`text-2xl py-4 md:text-3xl text-slate-100 font-extrabold lg:text-4xl custom-h1 ${isTitleVisible ? 'reveal-title' : ''}`}
+                {`text-xl py-1 md:text-3xl md:py-3 text-slate-100 font-extrabold lg:text-4xl custom-h1 ${isTitleVisible ? 'reveal-title' : ''}`}
                 >
                     SALTO Instalaciones
                 </h1>

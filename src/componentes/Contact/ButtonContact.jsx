@@ -8,7 +8,7 @@ const ButtonContact = () => {
                   <div className='flex items-center'>
                   <p className='text-sm md:text-base lg:text-xl'>Contáctanos</p>
                     
-                    <svg className='phone-ico' width="24" height="24" viewBox="0 0 24 24" 
+                    <svg className='phone-ico' width="22" height="22" viewBox="0 0 24 24" 
                     strokeWidth="2" 
                     stroke="currentColor" 
                     fill="none" strokeLinecap="round" 
@@ -20,7 +20,7 @@ const ButtonContact = () => {
                     </svg>
                   </div>
                   <span className='text-xs md:text-sm lg:text-base'>
-                  <small>Lunes a Viernes 9:00 - 18:00</small>
+                  <small className='p-2'>Lunes a Viernes 9:00 - 18:00</small>
                   </span>  
             </a>
     </div>

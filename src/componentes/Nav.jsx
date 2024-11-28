@@ -59,26 +59,33 @@ const Nav = () => {
       </header>
         
         <nav >
-       
-       <ul id='sidenav' className={displayMenu}>
+       <div className={`${displayMenu} flex flex-col gap-3 md:items-center`}>
+       <ul id='sidenav' className='relative'>
         
-            <Link to='/'> 
-            <li className="nav-link">
-                <h2 className='h2-navigation' data-name="Inicio">Inicio</h2>
-            </li>
-            </Link>
-           
-            <Link to='/services'>
-            <li className="nav-link">
-                <h2 className='h2-navigation' data-name="Servicios">Servicios</h2>
-            </li>
-            </Link>
-            <Link to='/contact'>
-            <li className="nav-link">
-                <h2 className='h2-navigation' data-name="Contacto">Contacto</h2>
-            </li>
-            </Link>
-        </ul>
+        <Link to='/'> 
+        <li className="nav-link">
+            <h2 className='h2-navigation' data-name="Inicio">Inicio</h2>
+        </li>
+        </Link>
+       
+        <Link to='/services'>
+        <li className="nav-link">
+            <h2 className='h2-navigation' data-name="Servicios">Servicios</h2>
+        </li>
+        </Link>
+        <Link to='/contact'>
+        <li className="nav-link">
+            <h2 className='h2-navigation' data-name="Contacto">Contacto</h2>
+        </li>
+        </Link>
+        
+    </ul>
+    <div className="w-full mt-10 md:text-center">
+            <small className="text-xs md:text-base">Servicio técnico especializado</small>
+            </div>
+       </div>
+       
+       
         
         </nav>
         </>
