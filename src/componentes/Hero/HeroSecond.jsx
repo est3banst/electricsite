@@ -4,12 +4,19 @@ import { useInView } from 'react-intersection-observer';
 
 const HeroSecond = () => {
 
-  const { ref: imgRef, inView: isHeroVis } = useInView();
-  const { ref: img2Ref, inView: isAllHeroVis } = useInView();
-
+    const { ref: imgRef, inView: isHeroVis } = useInView({
+        threshold: 0.5,
+        triggerOnce: true, 
+      });
+    
+      const { ref: img2Ref, inView: isAllHeroVis } = useInView({
+        threshold: 0.25,
+        triggerOnce: true,
+      });
+    
   return (
     <>
-     <section className='h-[100vh] w-11/12 m-auto flex flex-col md:flex-row my-4'>
+     <section className='h-auto w-11/12 m-auto flex flex-col md:flex-row my-4'>
             <div className='h-4/5 cust-border my-3'>
                 <h2 className='text-neutral-900 font-bold text-xl md:text-2xl lg:text-3xl'>
                     Soluciones eficientes para tu hogar, empresa o negocio
@@ -34,25 +41,25 @@ const HeroSecond = () => {
                     </p>
                 </section>
             </div>
-            <div className='cust-border h-full w-full flex flex-col '>
+            <div className='cust-border h-auto w-full flex md:gap-2 flex-col '>
             <div ref={imgRef} 
             style={{
                 backgroundImage: 'url(/imgs/panelbox.webp)',
                 backgroundSize: '100% 100%',
-                backgroundPosition: '100% 100%',
+                backgroundPosition: '100% 50%',
                 backgroundRepeat: 'no-repeat'
             }}
-            className={`cust-shape py-2 w-full h-full ${isHeroVis ? 'reveal-imgs' : ''}`}>
+            className={`cust-circle py-4 translate-x-[15%] md:translate-x-[20%] transition-all duration-500 ease-in-out w-full min-h-80 h-[320px] ${isHeroVis ? 'reveal-imgs' : ''}`}>
                
                 </div>
             <div ref={img2Ref} 
             style={{
                 backgroundImage: 'url(/imgs/huj.jpg)',
                 backgroundSize: '100% 100%',
-                backgroundPosition: '100% 100%',
+                backgroundPosition: '50% 50%',
                 backgroundRepeat: 'no-repeat'
             }}
-            className={`cust-shape py-2 w-full h-full ${isAllHeroVis ? 'reveal-img2' : ''}`}>
+            className={`cust-circle py-2 w-[100%] translate-x-[-15%] transition-all duration-500 ease-in-out md:translate-x-[-20%] min-h-82 h-[340px] ${isAllHeroVis ? 'reveal-img2' : ''}`}>
               
                 </div>
                 <hr />

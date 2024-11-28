@@ -27,9 +27,8 @@
 .cust-border {
    border-bottom: 1px solid #020202;
 }
-.cust-shape {
-   clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);   
-   background-color: transparent;
+.cust-circle {
+  clip-path: circle(40%);
 }
 .section-for-pfo {
    border-right: 1px solid #020202;
@@ -64,7 +63,7 @@
    }
    70% {
      transform: translateX(-10%);
-     opacity: .7;
+     opacity: .4;
    }
    100% {
      transform: translateX(0);
@@ -78,11 +77,11 @@
    }
    30% {
      transform: translateY(-40%);
-     opacity: .3;
+     opacity: .2;
    }
    70% {
      transform: translateY(-10%);
-     opacity: .7;
+     opacity: .3;
    }
    100% {
      transform: translateY(0);
