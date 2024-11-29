@@ -15,7 +15,7 @@ const Nosotros = () => {
          POR QUÉ ELEGIRNOS?
         </h2>
        
-    <section className='flex justify-evenly gap-5 items-center'>
+    <section className='flex justify-between md:justify-evenly gap-5 items-center'>
     <p className='text-xl md:text-2xl lg:text-3xl'>
             SERVICIOS EN EL DÍA
         </p>
@@ -29,7 +29,7 @@ const Nosotros = () => {
     </section>
    
   
-    <section className='flex justify-evenly gap-5 items-center'>
+    <section className='flex justify-between md:justify-evenly gap-5 items-center'>
     <p className='text-xl md:text-2xl lg:text-3xl'>
             PROFESIONALES CERTIFICADOS
         </p>
@@ -41,7 +41,7 @@ const Nosotros = () => {
         -3a12 12 0 0 0 8.5 3a12 12 0 0 1 -.09 7.06" /><path d="M15 19l2 2l4 -4" />
         </svg>
     </section>
-    <section className='flex justify-evenly gap-5 items-center'>
+    <section className='flex justify-between md:justify-evenly gap-5 items-center'>
     <p className='text-xl md:text-2xl lg:text-3xl'>TRANSPARENCIA DE COSTOS</p>
         <svg className='svg-about' width="75" viewBox="0 0 24 24" strokeWidth="1" 
         stroke="currentColor" fill="none" strokeLinecap="round" 
