@@ -80,8 +80,10 @@ const Nav = () => {
         </Link>
         
     </ul>
+    <hr className="text-slate-900" />
     <div className="w-full mt-10 md:text-center">
             <small className="text-xs md:text-base">Servicio técnico especializado</small>
+           
             </div>
        </div>
        
@@ -104,7 +106,7 @@ const AnimatedHamburgerButton = () => {
           initial={false}
           animate={active ? "open" : "closed"}
           onClick={() => setActive((pv) => !pv)}
-          className="relative h-[38px] w-[36px] md:h-[46px] md:w-[46px] border-2 rounded-full bg-white/0 transition-colors hover:bg-white/20"
+          className="relative h-[48px] w-[36px] md:h-[86px] md:w-[106px] border-2 border-slate-900 rounded-full bg-white/0 transition-colors hover:bg-white/20"
         >
           <motion.span
             variants={VARIANTS.top}

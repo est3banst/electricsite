@@ -15,7 +15,9 @@ function App() {
 
   return (
     <>  
-    <main id='main-app-container'>
+    <main 
+    className='w-full overflow-hidden'
+    id='main-app-container'>
       <Nav />
       <HeroComp />
       <Section />

@@ -19,7 +19,9 @@ const Nosotros = () => {
     <p className='text-xl md:text-2xl lg:text-3xl'>
             SERVICIOS EN EL DÍA
         </p>
-        <svg className='svg-about' width="75" viewBox="0 0 24 24" strokeWidth="1" 
+        <svg 
+        className='svg-about flex-shrink-0' 
+        width="75" height="75" viewBox="0 0 24 24" strokeWidth="1" 
         stroke="currentColor" fill="none" strokeLinecap="round" 
         strokeLinejoin="round">
         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -33,7 +35,9 @@ const Nosotros = () => {
     <p className='text-xl md:text-2xl lg:text-3xl'>
             PROFESIONALES CERTIFICADOS
         </p>
-        <svg className='svg-about' width="75" viewBox="0 0 24 24" strokeWidth="1" 
+        <svg 
+        className='svg-about flex-shrink-0' 
+        width="75" height="75" viewBox="0 0 24 24" strokeWidth="1" 
         stroke="currentColor" fill="none" strokeLinecap="round" 
         strokeLinejoin="round">
         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -43,7 +47,7 @@ const Nosotros = () => {
     </section>
     <section className='flex justify-between md:justify-evenly gap-5 items-center'>
     <p className='text-xl md:text-2xl lg:text-3xl'>TRANSPARENCIA DE COSTOS</p>
-        <svg className='svg-about' width="75" viewBox="0 0 24 24" strokeWidth="1" 
+        <svg className='svg-about flex-shrink-0' width="75" height="75" viewBox="0 0 24 24" strokeWidth="1" 
         stroke="currentColor" fill="none" strokeLinecap="round" 
         strokeLinejoin="round">
         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -62,7 +66,7 @@ const Nosotros = () => {
         <button className='custom-b flex mx-auto my-4 items-center text-xl md:text-2xl lg:text-3xl p-3 gap-3'>
             Contactanos hoy
             <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20">
-            <path fill="currentColor" fill-rule="evenodd" d="m7.053 2.158l7.243 7.256a.66.66 0 0 1 .204.483a.7.7 0 0 1-.204.497q-3.93 3.834-7.575 7.401c-.125.117-.625.408-1.011-.024c-.386-.433-.152-.81 0-.966l7.068-6.908l-6.747-6.759q-.369-.509.06-.939q.43-.43.962-.04"/>
+            <path fill="currentColor" fillRule="evenodd" d="m7.053 2.158l7.243 7.256a.66.66 0 0 1 .204.483a.7.7 0 0 1-.204.497q-3.93 3.834-7.575 7.401c-.125.117-.625.408-1.011-.024c-.386-.433-.152-.81 0-.966l7.068-6.908l-6.747-6.759q-.369-.509.06-.939q.43-.43.962-.04"/>
             </svg>
         </button>
         </Link>

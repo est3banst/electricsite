@@ -5,7 +5,7 @@ export default function Works (props) {
     return (
         <>
        
-        <article className='article-container'>
+        <article className='article-container w-full'>
             <section className='article-section'>
                 <div className='section-div'>
                     <img 
