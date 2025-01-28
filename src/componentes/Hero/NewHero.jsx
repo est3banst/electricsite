@@ -62,25 +62,27 @@ const NewHero = () => {
           className="absolute inset-0 w-full h-full bg-cover opacity-0 transition-opacity duration-1000"
         ></div>
             <div className='h-[100vh] w-[100vw] mx-auto flex'>
-            <div className='custom-hero w-[60%] md:w-[40%] lg:w-[30%] mr-4 my-auto'>
+            <div className='custom-hero flex flex-col gap-2 p-3 w-[66.7%] md:w-[70%] lg:w-[77.7%] mr-4 my-auto'>
             <h1 ref={titleRef}
                 className=
                 {`text-xl py-1 md:text-3xl md:py-3 text-slate-100 font-extrabold lg:text-4xl custom-h1 ${isTitleVisible ? 'reveal-title' : ''}`}
                 >
                     SALTO Instalaciones
                 </h1>
-                <small className='my-4 text-slate-100 italic text-xs md:text-sm lg:text-base font-semibold'>{titletext}</small>
-                <section className='my-5'>
-                    <p className='text-slate-100 text-xs md:text-sm lg:text-xl'>
-                        Somos una empresa abocada al servicio, mantenimiento y 
+                <small className='my-2 text-slate-100 text-xs md:text-base lg:text-xl font-semibold'>{titletext}</small>
+                <section className='flex flex-col gap-3 my-2'>
+                    <p className='text-slate-100 text-sm md:text-base lg:text-xl'>
+                        Especializados en mantenimiento y 
                         asesoramiento en el área de la electricidad y la electrónica.
                     </p>
+                    <p className='text-slate-100 text-sm md:text-base lg:text-xl'>Planos, puesta en marcha y ejecucción de proyectos en infraestructura eléctrica</p>
+                    <ButtonContact />
                 </section>
-                <ButtonContact />
+                
                 <a 
-                className='flex items-center justify-center text-slate-100'
+                className='flex items-center p-2 text-slate-100'
                 href="https://www.google.com/maps/place/Agraciada,+50000+Salto,+Departamento+de+Salto/@-31.3856407,-57.952567,17z/data=!3m1!4b1!4m6!3m5!1s0x95adc32acbacdc4b:0xf9099c5fd75d9aee!8m2!3d-31.3856407!4d-57.952567!16s%2Fg%2F1vlzck54?entry=ttu">
-                <p className=''>Agraciada 3120</p>
+                <p className=''>Salto, Uruguay</p>
                 <svg width="24"  height="24"  viewBox="0 0 24 24"  
                     fill="none"  stroke="currentColor"  strokeWidth="2"  
                     strokeLinecap="round"  strokeLinejoin="round">

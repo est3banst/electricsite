@@ -1,10 +1,11 @@
 export default function Whats() {
     return (
         <>
-        <a href="https://wa.me/+59898414718?text=Hola,%20estoy%20interesado%20en%20un%20presupuesto%20para%20..">
+        <a 
+        className="hover:opacity-85"
+        href="https://wa.me/+59898414718?text=Hola,%20estoy%20interesado%20en%20un%20presupuesto%20para%20..">
         
-        <div className='custom-whatsapp p-1 fixed text-slate-50 z-[989] bottom-2 right-0 flex w-max items-center'>
-        <span className='text-xs md:text-sm lg:text-base'>Chateá con nosotros </span>  
+        <div className='custom-whatsapp p-2 fixed text-slate-50 z-[989] bottom-2 right-2 flex w-max items-center'>
             <svg className='' width="32" height="32" viewBox="0 0 24 24" strokeWidth="1.5"
             stroke="currentColor" fill="none" strokeLinecap="round" 
             strokeLinejoin="round"><path stroke="none" d="M0 0h24v24H0z" 

@@ -15,7 +15,7 @@ export default function Section () {
         muted
         />
         </div>    
-        <div className="main-hero absolute top-[30%] flex gap-3 flex-col items-center w-3/5 md:w-3/5 lg:w-8/12">
+        <div className="main-hero absolute top-[30%] flex gap-4 flex-col items-center w-4/5 p-4 md:w-5/6 lg:w-9/12">
             <p className='text-base md:text-xl lg:text-3xl text-slate-50 '>Más de 20 años de experiencia certificada por nuestros clientes.</p>  
             <p className='text-base md:text-xl lg:text-3xl text-slate-50'>Asesoría de primera mano para soluciones energéticas sustentables</p>
                 <ButtonContact

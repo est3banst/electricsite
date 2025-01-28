@@ -9,16 +9,7 @@
 /* Whatsapp */
 
 .custom-whatsapp {
-    
     box-sizing: content-box;
-                  
     background-color: #25d366;
-   
-    border-radius: 8px;
- 
-}
-.container-whatsapp span {
-    margin: auto 0;
-    padding: .132rem;
-    color: #fff;
+    border-radius: 50%;
 }
