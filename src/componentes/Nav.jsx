@@ -16,12 +16,12 @@ const Nav = () => {
    
     return (
         <>
-        <header className='flex justify-around items-center w-full h-full'>
+        <header className='flex justify-around items-center w-full h-auto'>
 
-        <a href='/' className='mix-blend-multiply max-h-[200px] mx-3'>
+        <a href='/' className='mix-blend-multiply h-auto mx-3'>
             <img src='/imgs/saltolog.svg' 
                 alt='brand logo' 
-                className='lg-an h-full max-h-[120px] md:max-h-[170px] lg:max-h-[200px] w-5/6 object-cover'/>
+                className='lg-an max-h-20 md:max-h-[100px] lg:max-h-[120px] w-5/6 object-contain'/>
             </a>
 
             <span className='flex items-center gap-3'>

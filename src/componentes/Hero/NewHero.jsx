@@ -61,8 +61,8 @@ const NewHero = () => {
           }}
           className="absolute inset-0 w-full h-full bg-cover opacity-0 transition-opacity duration-1000"
         ></div>
-            <div className='h-[100vh] w-[100vw] mx-auto flex'>
-            <div className='custom-hero flex flex-col gap-2 p-3 w-[66.7%] md:w-[70%] lg:w-[77.7%] mr-4 my-auto'>
+            <div className='h-[100vh] w-[100vw] justify-center flex'>
+            <div className='custom-hero flex flex-col gap-2 p-4 justify-center w-max mr-4 my-auto'>
             <h1 ref={titleRef}
                 className=
                 {`text-xl py-1 md:text-3xl md:py-3 text-slate-100 font-extrabold lg:text-4xl custom-h1 ${isTitleVisible ? 'reveal-title' : ''}`}

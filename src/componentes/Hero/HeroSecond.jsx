@@ -41,25 +41,21 @@ const HeroSecond = () => {
                     </p>
                 </section>
             </div>
-            <div className='h-auto w-full flex md:gap-2 flex-col '>
+            <div className='h-auto w-4/6 md:w-full flex md:gap-4 flex-col '>
             <div ref={imgRef} 
             style={{
                 backgroundImage: 'url(/imgs/panelbox.webp)',
-                backgroundSize: '100% 100%',
-                backgroundPosition: '100% 50%',
-                backgroundRepeat: 'no-repeat'
+             
             }}
-            className={`cust-circle py-4 translate-x-[15%] transition-all duration-500 ease-in-out w-full min-h-80 h-[320px] ${isHeroVis ? 'reveal-imgs' : ''}`}>
+            className={`cust-circle py-4 transition-all duration-500 ease-in-out  ${isHeroVis ? 'reveal-imgs' : ''}`}>
                
                 </div>
             <div ref={img2Ref} 
             style={{
                 backgroundImage: 'url(/imgs/huj.jpg)',
-                backgroundSize: '100% 100%',
-                backgroundPosition: '50% 50%',
-                backgroundRepeat: 'no-repeat'
+             
             }}
-            className={`cust-circle py-2 translate-x-[-15%] transition-all duration-500 ease-in-out min-h-82 h-[340px] ${isAllHeroVis ? 'reveal-img2' : ''}`}>
+            className={`cust-circle py-4 transition-all duration-500 ease-in-out ${isAllHeroVis ? 'reveal-img2' : ''}`}>
               
                 </div>
                 <hr />
