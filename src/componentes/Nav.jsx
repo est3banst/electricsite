@@ -16,15 +16,33 @@ const Nav = () => {
    
     return (
         <>
-        <header className='flex justify-around items-center w-full h-auto'>
-
-        <a href='/' className='mix-blend-multiply h-auto mx-3'>
+        <header className='flex justify-around md:justify-between items-center w-full h-auto'>
+        <a href='/' className='md:hidden mix-blend-multiply h-auto mx-3'>
+            <img src='/imgs/saltolog.svg' 
+                alt='brand logo' 
+                className='lg-an max-h-20 md:max-h-[100px] lg:max-h-[120px] w-5/6 object-contain'/>
+            </a>
+      <div className="h-auto hidden md:flex md:w-3/6 md:justify-start">
+      <a href='/' className='mix-blend-multiply h-auto mx-3'>
             <img src='/imgs/saltolog.svg' 
                 alt='brand logo' 
                 className='lg-an max-h-20 md:max-h-[100px] lg:max-h-[120px] w-5/6 object-contain'/>
             </a>
 
-            <span className='flex items-center gap-3'>
+            <ol className="hidden md:flex justify-center w-4/6 items-center gap-4 uppercase">
+             <Link className="rounded-2xl hover:bg-[#f2f2f2] border p-2" to='/'> 
+             <li >Inicio</li>
+             </Link>
+             <Link className="rounded-2xl hover:bg-[#f2f2f2] border p-2" to='/services'>
+             <li>Servicios</li>
+             </Link> 
+             <Link className="rounded-2xl hover:bg-[#f2f2f2] border p-2" to='/contact'>
+              <li>Contacto</li>
+             </Link>
+            </ol>
+      </div>
+
+            <span className='flex items-center justify-center md:w-2/6 gap-3'>
             <a id="insta" href="https://www.instagram.com/saltoinstalaciones/">
                 
                 <svg className='' width="34" height="34" viewBox="0 0 24 24" strokeWidth="2"
@@ -46,21 +64,20 @@ const Nav = () => {
             </a>
 
             </span>
-           <div className='flex items-center justify-center'>
            
-            <div className="grid h-full text-slate-800 place-content-center bg-transparent" onClick={settingOpen}>
+            <div className="grid md:hidden h-full text-slate-800 place-content-center bg-transparent" onClick={settingOpen}>
              <AnimatedHamburgerButton id="nav-icon1" className={`text-slate-800 ${menuIco}`}>
           
             </AnimatedHamburgerButton> 
             </div>
-           </div>
+         
             
            
       </header>
         
-        <nav >
+        <nav className="md:hidden" >
        <div className={`${displayMenu} flex flex-col gap-3 md:items-center`}>
-       <ul id='sidenav' className='relative'>
+       <ul id='sidenav' className='relative md:hidden'>
         
         <Link to='/'> 
         <li className="nav-link">
@@ -86,8 +103,6 @@ const Nav = () => {
            
             </div>
        </div>
-       
-       
         
         </nav>
         </>
@@ -110,17 +125,17 @@ const AnimatedHamburgerButton = () => {
         >
           <motion.span
             variants={VARIANTS.top}
-            className="absolute h-[1.5px] w-5 bg-slate-900"
+            className="absolute h-[3px] w-8 bg-slate-900"
             style={{ y: "-50%", left: "50%", x: "-50%", top: "35%" }}
           />
           <motion.span
             variants={VARIANTS.middle}
-            className="absolute h-[1.5px] w-5 bg-slate-900"
+            className="absolute h-[3px] w-8 bg-slate-900"
             style={{ left: "50%", x: "-50%", top: "50%", y: "-50%" }}
           />
           <motion.span
             variants={VARIANTS.bottom}
-            className="absolute h-[1.5px] w-2 bg-slate-900"
+            className="absolute h-[3px] w-4 bg-slate-900"
             style={{
               x: "-50%",
               y: "50%",

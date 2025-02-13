@@ -18,11 +18,11 @@ const HeroSecond = () => {
     <>
      <section className='cust-border h-auto w-full m-auto flex flex-col md:flex-row p-6'>
             <div className='h-auto my-3 cust-bg-section'>
-                <h2 className='text-slate-100 md:text-slate-50 font-bold text-xl md:text-2xl lg:text-3xl'>
+                <h2 className='text-slate-100 p-4 md:text-slate-50 font-bold text-xl md:text-2xl lg:text-3xl'>
                     Soluciones eficientes para tu hogar, empresa o negocio
                 </h2>
                 <hr />
-                <section className='py-4 section-for-pfo flex flex-col gap-2'>
+                <section className='p-4 section-for-pfo flex flex-col gap-2'>
                     <p className='text-slate-100 font-semibold underline md:text-slate-50 py-2 text-base md:text-xl lg:text-2xl'>Red fibra óptica
                     </p>
                     <p className='text-slate-100 font-semibold underline md:text-slate-50 py-2 text-base md:text-xl lg:text-2xl'>Instalaciones Eléctricas
