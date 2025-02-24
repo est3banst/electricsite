@@ -16,28 +16,51 @@ const Nav = () => {
    
     return (
         <>
-        <header className='flex justify-around md:justify-between items-center w-full h-auto'>
+        <header className='flex fixed top-0 z-[9877] backdrop-blur-0 bg-white/20 justify-around md:justify-between items-center rounded-b-xl w-full h-auto shadow-xl'>
+
         <a href='/' className='md:hidden mix-blend-multiply h-auto mx-3'>
-            <img src='/imgs/saltolog.svg' 
-                alt='brand logo' 
-                className='lg-an max-h-20 md:max-h-[100px] lg:max-h-[120px] w-5/6 object-contain'/>
+        <motion.img 
+    src='/imgs/erasebglogo.png' 
+    alt='brand logo' 
+    className='lg-an max-h-[110px] md:max-h-[115px] lg:max-h-[119px] w-5/6 object-contain'
+    animate={{
+        scale: [1, 1.01, 1.03, 1.03, 1.01, 1],
+    }}
+    transition={{
+        duration: 1.2,
+        repeat: Infinity,
+        repeatType: "reverse",
+        ease: "easeInOut",
+    }}
+/>
             </a>
       <div className="h-auto hidden md:flex md:w-3/6 md:justify-start">
       <a href='/' className='mix-blend-multiply h-auto mx-3'>
-            <img src='/imgs/saltolog.svg' 
-                alt='brand logo' 
-                className='lg-an max-h-20 md:max-h-[100px] lg:max-h-[120px] w-5/6 object-contain'/>
+      <motion.img 
+    src='/imgs/erasebglogo.png' 
+    alt='brand logo' 
+    className='lg-an max-h-[110px] md:max-h-[115px] lg:max-h-[119px] w-5/6 object-contain'
+    animate={{
+        scale: [1, 1.01, 1.03, 1.03, 1.01, 1],
+    }}
+    transition={{
+        duration: 1.2,
+        repeat: Infinity,
+        repeatType: "reverse",
+        ease: "easeInOut",
+    }}
+/>
             </a>
 
             <ol className="hidden md:flex justify-center w-4/6 items-center gap-4 uppercase">
              <Link className="rounded-2xl hover:bg-[#f2f2f2] border p-2" to='/'> 
-             <li >Inicio</li>
+             <li className="text-slate-950 font-bold p-2 text-xl">Inicio</li>
              </Link>
-             <Link className="rounded-2xl hover:bg-[#f2f2f2] border p-2" to='/services'>
-             <li>Servicios</li>
+             <Link className="rounded-2xl  hover:bg-[#f2f2f2] border p-2" to='/services'>
+             <li className="text-slate-950 font-bold p-2 text-xl">Servicios</li>
              </Link> 
-             <Link className="rounded-2xl hover:bg-[#f2f2f2] border p-2" to='/contact'>
-              <li>Contacto</li>
+             <Link className="rounded-2xl  hover:bg-[#f2f2f2] border p-2" to='/contact'>
+              <li className="text-slate-950 font-bold p-2 text-xl">Contacto</li>
              </Link>
             </ol>
       </div>
@@ -65,7 +88,7 @@ const Nav = () => {
 
             </span>
            
-            <div className="grid md:hidden h-full text-slate-800 place-content-center bg-transparent" onClick={settingOpen}>
+            <div className="grid md:hidden h-full text-slate-800 place-content-center" onClick={settingOpen}>
              <AnimatedHamburgerButton id="nav-icon1" className={`text-slate-800 ${menuIco}`}>
           
             </AnimatedHamburgerButton> 
@@ -76,7 +99,7 @@ const Nav = () => {
       </header>
         
         <nav className="md:hidden" >
-       <div className={`${displayMenu} flex flex-col gap-3 md:items-center`}>
+       <div className={`${displayMenu} flex flex-col gap-3 justify-center md:items-center`}>
        <ul id='sidenav' className='relative md:hidden'>
         
         <Link to='/'> 
@@ -121,21 +144,21 @@ const AnimatedHamburgerButton = () => {
           initial={false}
           animate={active ? "open" : "closed"}
           onClick={() => setActive((pv) => !pv)}
-          className="relative h-16 w-15 border-2 border-slate-900 rounded-full bg-white/0 transition-colors hover:bg-white/20"
+          className="relative h-16 w-15 border-2 border-slate-900 rounded-full bg-white/20 transition-colors hover:bg-white/20"
         >
           <motion.span
             variants={VARIANTS.top}
-            className="absolute h-[3px] w-8 bg-slate-900"
+            className="absolute h-[4px] w-9 bg-slate-900 rounded-full"
             style={{ y: "-50%", left: "50%", x: "-50%", top: "35%" }}
           />
           <motion.span
             variants={VARIANTS.middle}
-            className="absolute h-[3px] w-8 bg-slate-900"
+            className="absolute h-[4px] w-9 bg-slate-900 rounded-full"
             style={{ left: "50%", x: "-50%", top: "50%", y: "-50%" }}
           />
           <motion.span
             variants={VARIANTS.bottom}
-            className="absolute h-[3px] w-4 bg-slate-900"
+            className="absolute h-[4px] w-4 bg-slate-900 rounded-full"
             style={{
               x: "-50%",
               y: "50%",

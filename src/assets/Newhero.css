@@ -83,6 +83,12 @@
 .heading-in {
    animation: slideIn 750ms ease-out;
 }
+.cust-fonting {
+  font-family: 'Inter', serif;
+  letter-spacing: 0.009em;
+  font-weight: 300;
+}
+
 
 @keyframes slideIn {
    0% {

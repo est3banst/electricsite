@@ -15,7 +15,7 @@ export default function Services () {
   return (
         <>
     
-    <div className='container-color'>
+    <div className='container-color pt-[100px]'>
             
         <h2 className='h2-services'>SERVICIOS</h2>
     <Link to='/paneles'>

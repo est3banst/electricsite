@@ -8,8 +8,10 @@ const Contactanos = () => {
   return (
     <div>
         <Nav />
+        <div className='pt-[100px]'>
         <Contact />
         <Footer />
+        </div>
     </div>
   )
 }
