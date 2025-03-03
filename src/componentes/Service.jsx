@@ -7,8 +7,10 @@ const Service = () => {
   return (
     <div>
         <Nav />
+        <div className='pt-[100px]'>
         <Services />
         <Footer />
+        </div>
     </div>
   )
 }

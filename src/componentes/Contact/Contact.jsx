@@ -3,7 +3,8 @@ import '../../assets/Contact.css'
 export default function Contacto () {
     return (
         <div id='contact' className="social-media-icons">
-<h2 className='h2-sections'>CÓMO CONTACTAR ?</h2>
+<h2 className="text-2xl md:text-3xl w-max self-start uppercase m-4 py-2 border-b-4 border-[#0393f8]">
+Contacto</h2>
 <div className='social-container'>
 <a className='social-a' href="mailto:hugojure@saltoinstalaciones.com">
 <svg className='social-icon email' width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor"
@@ -12,7 +13,7 @@ export default function Contacto () {
     <path d="M3 6l9 6l9 -6" /><path d="M15 18h6" /><path d="M18 15l3 3l-3 3" /></svg>
 
 </a>
-<p className='section-par'>Podes solicitar un presupuesto, o coordinar una visita</p>
+<p className='section-par'>Podés solicitar un presupuesto, o coordinar una visita</p>
 <p className='section-p'>Envianos un mail</p>
 </div>
 
@@ -26,7 +27,7 @@ stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /><path d="M16.5 7.5l0 .01" /></svg>      
 
 </a>
-<p className='section-par'>Tambien podés chequear nuestros trabajos acá</p>
+<p className='section-par'>También podés chequear nuestros trabajos acá</p>
 </div>
 
 <div className='social-container'>

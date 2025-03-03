@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 * {
-    border-style: none;
     font-family: 'Inter', serif;
 }
 /* Whatsapp */

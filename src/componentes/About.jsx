@@ -4,7 +4,10 @@ import { useInView } from 'react-intersection-observer'
 
 const Nosotros = () => {
 
-    const { ref: secondBoxRef, inView: isSecondBoxVisible } = useInView();
+    const { ref: secondBoxRef, inView: isSecondBoxVisible } = useInView({
+        threshold: 0.2,
+        triggerOnce: true
+    });
 
     return (
 

@@ -15,9 +15,10 @@ export default function Services () {
   return (
         <>
     
-    <div className='container-color pt-[100px]'>
+    <div className='container-color'>
             
-        <h2 className='h2-services'>SERVICIOS</h2>
+    <h2 className="text-2xl md:text-3xl w-max self-start uppercase mx-4 mb-6 pb-2 pt-4 border-b-4 border-[#0393f8]">
+    Servicios</h2>
     <Link to='/paneles'>
     <Works
       src={Panels}

@@ -42,15 +42,22 @@
   color: #0d51dc8c;
 }
 
-.h2-sections {
-  font-size: 2.6rem;
-  font-weight: 400;
-  padding: .5rem 0 0;
-  border-bottom: 1px solid #000;
-  border-radius: 8px;
-text-align: center;
+.cust-bg-section {
+  --r: 20px; /* radius */
+  width: 100%;
+  aspect-ratio: 1.5;
+  border-radius: var(--r) 0/calc(2*var(--r)) 0;
+  padding-block: var(--r);
+  --_m:#0000 100%,#000 calc(100% + 1px);
+  mask:
+    conic-gradient(#000 0 0) content-box,
+    radial-gradient(var(--r) at 100% 100%,var(--_m)) 0 100% no-repeat,
+    radial-gradient(var(--r) at 0    0   ,var(--_m)) 100% 0 no-repeat;
+  mask-size: var(--r) var(--r);
+  background: rgba(23, 23, 23, 0.539);
+  /* backdrop-filter: blur(10px); */
+  /* border: 1px solid rgba(203, 203, 203, 0.25); */
 }
-
 
 .section-par, .section-p {
   padding: 1rem;

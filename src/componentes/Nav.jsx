@@ -144,7 +144,7 @@ const AnimatedHamburgerButton = () => {
           initial={false}
           animate={active ? "open" : "closed"}
           onClick={() => setActive((pv) => !pv)}
-          className="relative h-16 w-15 border-2 border-slate-900 rounded-full bg-white/20 transition-colors hover:bg-white/20"
+          className="relative h-16 w-15 rounded-full bg-white/20 transition-colors hover:bg-white/20"
         >
           <motion.span
             variants={VARIANTS.top}

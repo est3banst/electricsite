@@ -5,23 +5,22 @@ import { useInView } from 'react-intersection-observer';
 const HeroSecond = () => {
 
     const { ref: imgRef, inView: isHeroVis } = useInView({
-        threshold: 0.5,
+        threshold: 0.3,
         triggerOnce: true, 
       });
     
       const { ref: img2Ref, inView: isAllHeroVis } = useInView({
-        threshold: 0.25,
+        threshold: 0.4,
         triggerOnce: true,
       });
     
   return (
     <>
-     <section className='cust-border h-auto w-full m-auto flex flex-col md:flex-row p-6'>
-            <div className='h-auto my-3 cust-bg-section'>
+     <section className='cust-border h-auto w-full m-auto grid grid-cols-1 gap-4 lg:grid-cols-2 p-6'>
+            <div className='h-auto my-3 custom-hero-second'>
                 <h2 className='text-slate-100 p-4 md:text-slate-50 font-bold text-xl md:text-2xl lg:text-3xl'>
                     Soluciones eficientes para tu hogar, empresa o negocio
                 </h2>
-                <hr />
                 <section className='p-4 section-for-pfo flex flex-col gap-2'>
                     <p className='text-slate-100 font-semibold underline md:text-slate-50 py-2 text-base md:text-xl lg:text-2xl'>Red fibra óptica
                     </p>
@@ -41,13 +40,13 @@ const HeroSecond = () => {
                     </p>
                 </section>
             </div>
-            <div className='h-auto w-4/6 md:w-full flex md:gap-4 flex-col '>
+            <div className='h-auto py-4 flex md:gap-2 flex-col '>
             <div ref={imgRef} 
             style={{
                 backgroundImage: 'url(/imgs/panelbox.webp)',
              
             }}
-            className={`cust-circle py-4 transition-all duration-500 ease-in-out  ${isHeroVis ? 'reveal-imgs' : ''}`}>
+            className={`cust-circle py-4 transition-all duration-1500 ease-in  ${isHeroVis ? 'reveal-imgs' : ''}`}>
                
                 </div>
             <div ref={img2Ref} 
@@ -55,10 +54,10 @@ const HeroSecond = () => {
                 backgroundImage: 'url(/imgs/huj.jpg)',
              
             }}
-            className={`cust-circle py-4 transition-all duration-500 ease-in-out ${isAllHeroVis ? 'reveal-img2' : ''}`}>
+            className={`cust-circle py-4 transition-all duration-1500 ease-in ${isAllHeroVis ? 'reveal-img2' : ''}`}>
               
                 </div>
-                <hr />
+               
             </div>
             
         </section>

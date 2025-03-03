@@ -6,11 +6,14 @@
    animation: slideIn 300ms infinite;
    -webkit-font-smoothing: antialiased;
  }
-.custom-hero {
+.custom-hero, .custom-hero-second {
    background-color: rgba(0, 0, 0, .25);
    backdrop-filter: blur(8px);
    border-radius: 12px;
    border-right: 1.5px solid #fff;
+}
+.custom-hero-second {
+  box-shadow: 1px 8px 4px 3px #020202;
 }
   .reveal-title {
     animation: slideIn 500ms ease-out;
@@ -23,23 +26,6 @@
     justify-content: center;
 }
 
-.cust-bg-section {
-    --r: 20px; /* radius */
-    width: 100%;
-    aspect-ratio: 1.5;
-    border-radius: var(--r) 0/calc(2*var(--r)) 0;
-    padding-block: var(--r);
-    --_m:#0000 100%,#000 calc(100% + 1px);
-    mask:
-      conic-gradient(#000 0 0) content-box,
-      radial-gradient(var(--r) at 100% 100%,var(--_m)) 0 100% no-repeat,
-      radial-gradient(var(--r) at 0    0   ,var(--_m)) 100% 0 no-repeat;
-    mask-size: var(--r) var(--r);
-    background: rgba(23, 23, 23, 0.539);
-    /* backdrop-filter: blur(10px); */
-    /* border: 1px solid rgba(203, 203, 203, 0.25); */
-}
-
 .cust-border {
   background: #2980B9;
   background: -webkit-linear-gradient(to left, #FFFFFF, #6DD5FA, #2980B9);  
@@ -49,7 +35,7 @@
 .cust-circle {
   width: 100%; 
   max-width: 340px;
-  height: 340px; 
+  height: 340px;
   border-radius: 50%;
   overflow: hidden; 
   background-size: cover;
@@ -59,17 +45,15 @@
 
 .reveal-imgs {
   opacity: 1;
-  transform: translateX(65%);
-  animation: slideIn 650ms ease-in;
+  transform: translateX(35%);
+  animation: slideIn 750ms ease-in;
 }
 
 .reveal-img2 {
-  transform: translateX(20%);
+  transform: translateX(0);
   opacity: 1;
   animation: slideSecond 800ms ease-in;
 }
-
-
 
 .section-container-fo {
     display: flex;
@@ -101,7 +85,7 @@
    }
    
    100% {
-     transform: translateX(40%);
+     transform: translateX(60%);
      opacity: 1;
    }
  }
@@ -141,24 +125,14 @@
    }
  }
 
-@media (width < 920px) {
+@media (width <= 520px) {
   .cust-circle {
-    max-width: 300px;
-    height: 300px;
+    height: 40vh;
+    width: 100dvw;
+    padding: 1rem;
+    margin: 8px 0;
+    transform: translate(0, 0);
+    background-size: cover;
   }
 }
-
-@media (width < 840px) {
-  .cust-circle {
-    max-width: 280px;
-    height: 280px;
-  }
-}
-
- @media (width < 500px) {
-    .cust-circle {
-      max-width: 250px;
-      height: 250px;
-    }
- }
 
