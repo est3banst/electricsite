@@ -19,7 +19,7 @@ export default function Services () {
             
     <h2 className="text-2xl md:text-3xl w-max self-start uppercase mx-4 mb-6 pb-2 pt-4 border-b-4 border-[#0393f8]">
     Servicios</h2>
-    <Link to='/paneles'>
+    <Link to='/services/panels'>
     <Works
       src={Panels}
       alt='Instalación y mantenimiento de paneles solares'
@@ -29,7 +29,7 @@ export default function Services () {
       instalación completa, garantizando un rendimiento optimo y duradero'
     />
     </Link>
-    <Link to='/industria'>
+    <Link to='/services/company'>
     <Works 
       src={Tecnico}
       alt='Instalaciones eléctricas cumpliendo con reglamentación de UTE'
@@ -37,7 +37,7 @@ export default function Services () {
       descr='Asesoría, planificación, e instalaciones completas para entornos corporativos'     
     />
     </Link>
-    <Link to='/cctv'>
+    <Link to='/services/cctv'>
     <Works 
       src={Video}
       alt='Instalaciones de sistemas de videovigilancia en el día'
@@ -47,7 +47,7 @@ export default function Services () {
 
     />
     </Link>
-    <Link to='/climatizacion'>
+    <Link to='/services/climate'>
     <Works 
       src={Pool}
       alt='Sistemas de climatización eficiente para todo tipo de piscinas'
@@ -57,7 +57,7 @@ export default function Services () {
       
     />
     </Link>
-    <Link to='/viviendas'>
+    <Link to='/services/house'>
     <Works 
       src={Houselights}
       alt='Instalaciones, mantenimiento o reparaciones eléctricas en domicilio o comercios'

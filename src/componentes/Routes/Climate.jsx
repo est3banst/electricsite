@@ -1,15 +1,17 @@
 import Nav from '../Nav'
 import Footer from '../Footer/Footer'
 
+import { useScrollTop } from '../hooks/useScrollTop'
 import Whats from '../Contact/Whats'
 
 import '../../assets/Carousel.css'
 
 export default function Climate() {
+    useScrollTop()
     return (
         <>
         <Nav />
-        <section className='section-container pt-[100px]'>
+        <section className='section-container pt-[96px]'>
         <div className='container-carousel'>
         <div className='carousel'>
             <input type='radio' name='slides' defaultChecked id='slide-1' />

@@ -34,7 +34,7 @@ const Nav = () => {
     }}
 />
             </a>
-      <div className="h-auto hidden md:flex md:w-3/6 md:justify-start">
+      <div className="h-auto hidden md:flex md:w-full">
       <a href='/' className='mix-blend-multiply h-auto mx-3'>
       <motion.img 
     src='/imgs/erasebglogo.png' 
@@ -52,15 +52,15 @@ const Nav = () => {
 />
             </a>
 
-            <ol className="hidden md:flex justify-center w-4/6 items-center gap-4 uppercase">
-             <Link className="rounded-2xl hover:bg-[#f2f2f2] border p-2" to='/'> 
-             <li className="text-slate-950 font-bold p-2 text-xl">Inicio</li>
+            <ol className="hidden md:flex justify-center w-3/6 items-center gap-4 uppercase">
+             <Link className="rounded-2xl hover:bg-[#f2f2f2] bg-[#f2f2f244] border p-2" to='/'> 
+             <li className="text-slate-950 font-bold p-2 text-base">Inicio</li>
              </Link>
-             <Link className="rounded-2xl  hover:bg-[#f2f2f2] border p-2" to='/services'>
-             <li className="text-slate-950 font-bold p-2 text-xl">Servicios</li>
+             <Link className="rounded-2xl  hover:bg-[#f2f2f2] border p-2 bg-[#f2f2f244]" to='/services'>
+             <li className="text-slate-950 font-bold p-2 text-base">Servicios</li>
              </Link> 
-             <Link className="rounded-2xl  hover:bg-[#f2f2f2] border p-2" to='/contact'>
-              <li className="text-slate-950 font-bold p-2 text-xl">Contacto</li>
+             <Link className="rounded-2xl  hover:bg-[#f2f2f2] border p-2 bg-[#f2f2f244]" to='/contact'>
+              <li className="text-slate-950 font-bold p-2 text-base">Contacto</li>
              </Link>
             </ol>
       </div>
