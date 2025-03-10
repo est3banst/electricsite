@@ -8,8 +8,18 @@ export default function Footer () {
     return (
         <>
         <footer>
-      
+       <div className='flex flex-col w-full lg:flex-row items-center'>
+       <section className='px-6 flex leading-relaxed space-y-1 flex-col gap-5 text-slate-50 py-4 my-4 max-w-full'>
+          <h2 className='font-black text-xl md:text-2xl'>Somos tu aliado para que todo funcione perfecto
+            </h2>
+            <p className='px-4 flex gap-2 max-w-5/6 w-max flex-col font-bold text-base md:text-xl'>Contactanos hoy para asesorarte en tu siguiente proyecto
+                <b className='border-b-2 w-max border-[#abfc2d]'>
+                sin costo!
+                </b>
+                </p>
+        </section>
         <Form></Form>
+       </div>
 
         <div className='p-4 bg-white/10 font-medium leading-relaxed grid grid-cols-1 md:grid-cols-2 gap-2'>
             <section className='flex flex-col p-4 gap-2'>

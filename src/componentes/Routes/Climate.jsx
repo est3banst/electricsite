@@ -12,7 +12,7 @@ export default function Climate() {
         <>
         <Nav />
         <section className='section-container pt-[96px]'>
-        <div className='container-carousel'>
+        <div className='container-carousel px-4'>
         <div className='carousel'>
             <input type='radio' name='slides' defaultChecked id='slide-1' />
             <input type='radio' name='slides' id='slide-2' />

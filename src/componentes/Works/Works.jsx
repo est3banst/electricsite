@@ -14,7 +14,7 @@ export default function Works (props) {
                    
                 </div>
                 <div className='container-for-work'>
-                    <p>{props.title}</p>
+                    <p className='text-2xl font-bold'>{props.title}</p>
                     <p>{props.descr}</p>
                 </div>
                 <Button />

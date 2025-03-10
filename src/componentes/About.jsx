@@ -1,30 +1,31 @@
 import { Link } from 'react-router-dom';
-import '../assets/About.css'
 import { useInView } from 'react-intersection-observer'
 
 const Nosotros = () => {
+    const bgImg = "imgs/planos.jpeg"
 
     const { ref: secondBoxRef, inView: isSecondBoxVisible } = useInView({
-        threshold: 0.2,
+        threshold: 0.1,
         triggerOnce: true
     });
 
     return (
 
       <>
-    <div className='container-about'>
-        <div className='container-sections'>
-        <h2 className='cust-font-h2 text-center text-3xl md:text-4xl lg:text-5xl'>
+    <div className="container-about" style={{ backgroundImage: `url(${bgImg})`, backgroundSize: 'cover',backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
+
+        <div className='bg-[#17171789] flex flex-col m-auto p-4 backdrop-blur-xs rounded-es-2xl w-5/6 text-sky-50'>
+        <h2 className='text-xl border-b-4 my-2 pb-2 font-black leading-relaxed md:text-2xl lg:text-3xl'>
          POR QUÉ ELEGIRNOS?
         </h2>
        
-    <section className='flex justify-between md:justify-evenly gap-5 items-center'>
-    <p className='text-xl md:text-2xl lg:text-3xl'>
+    <section className='flex justify-between px-4 items-center'>
+    <p className='text-xl md:text-2xl'>
             SERVICIOS EN EL DÍA
         </p>
         <svg 
         className='svg-about flex-shrink-0' 
-        width="75" height="75" viewBox="0 0 24 24" strokeWidth="1" 
+        width="75" height="75" viewBox="0 0 24 24" strokeWidth="2" 
         stroke="currentColor" fill="none" strokeLinecap="round" 
         strokeLinejoin="round">
         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -34,13 +35,13 @@ const Nosotros = () => {
     </section>
    
   
-    <section className='flex justify-between md:justify-evenly gap-5 items-center'>
-    <p className='text-xl md:text-2xl lg:text-3xl'>
+    <section className='flex justify-between px-4 items-center'>
+    <p className='text-xl md:text-2xl'>
             PROFESIONALES CERTIFICADOS
         </p>
         <svg 
         className='svg-about flex-shrink-0' 
-        width="75" height="75" viewBox="0 0 24 24" strokeWidth="1" 
+        width="75" height="75" viewBox="0 0 24 24" strokeWidth="2" 
         stroke="currentColor" fill="none" strokeLinecap="round" 
         strokeLinejoin="round">
         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -48,9 +49,9 @@ const Nosotros = () => {
         -3a12 12 0 0 0 8.5 3a12 12 0 0 1 -.09 7.06" /><path d="M15 19l2 2l4 -4" />
         </svg>
     </section>
-    <section className='flex justify-between md:justify-evenly gap-5 items-center'>
-    <p className='text-xl md:text-2xl lg:text-3xl'>TRANSPARENCIA DE COSTOS</p>
-        <svg className='svg-about flex-shrink-0' width="75" height="75" viewBox="0 0 24 24" strokeWidth="1" 
+    <section className='flex justify-between px-4 items-center'>
+    <p className='text-xl md:text-2xl'>TRANSPARENCIA DE COSTOS</p>
+        <svg className='svg-about flex-shrink-0' width="75" height="75" viewBox="0 0 24 24" strokeWidth="2" 
         stroke="currentColor" fill="none" strokeLinecap="round" 
         strokeLinejoin="round">
         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -63,8 +64,8 @@ const Nosotros = () => {
     
     
         </div>
-        <div ref={secondBoxRef} className={`cust-h2 w-full text-center text-xl md:text-2xl lg:text-3xl my-4 px-2 py-3 font-bold ${isSecondBoxVisible ? 'reveal-div' : ''}`}>
-        <h2>Nuestra experiencia y dedicación es tu tranquilidad eléctrica</h2>
+        <div ref={secondBoxRef} className={`bg-[#535353b1] w-full text-center text-xl md:text-2xl lg:text-3xl my-4 px-2 py-3 opacity-0 -translate-y-full transition-all duration-1000 font-bold ${isSecondBoxVisible ? 'opacity-100 translate-y-0' : ''}`}>
+        <h2 className='text-slate-50'>Nuestra experiencia y dedicación es tu tranquilidad eléctrica</h2>
         <Link to='/contact'>
         <button className='custom-b flex mx-auto my-4 items-center text-xl md:text-2xl lg:text-3xl p-3 gap-3'>
             Contactanos hoy

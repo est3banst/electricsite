@@ -35,7 +35,8 @@
 .cust-circle {
   width: 100%; 
   max-width: 340px;
-  height: 340px;
+  
+  height: 400px;
   border-radius: 50%;
   overflow: hidden; 
   background-size: cover;

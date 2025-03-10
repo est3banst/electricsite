@@ -5,19 +5,14 @@ import { useInView } from 'react-intersection-observer';
 const HeroSecond = () => {
 
     const { ref: imgRef, inView: isHeroVis } = useInView({
-        threshold: 0.3,
+        threshold: 0.1,
         triggerOnce: true, 
-      });
-    
-      const { ref: img2Ref, inView: isAllHeroVis } = useInView({
-        threshold: 0.4,
-        triggerOnce: true,
       });
     
   return (
     <>
-     <section className='cust-border h-auto w-full m-auto grid grid-cols-1 gap-4 lg:grid-cols-2 p-6'>
-            <div className='h-auto my-3 custom-hero-second'>
+     <section ref={imgRef} className='cust-border h-auto w-full m-auto grid grid-cols-1 gap-6 lg:grid-cols-2 p-6'>
+            <div  className='h-auto my-3 custom-hero-second'>
                 <h2 className='text-slate-100 p-4 md:text-slate-50 font-bold text-xl md:text-2xl lg:text-3xl'>
                     Soluciones eficientes para tu hogar, empresa o negocio
                 </h2>
@@ -40,21 +35,21 @@ const HeroSecond = () => {
                     </p>
                 </section>
             </div>
-            <div className='h-auto py-4 flex md:gap-2 flex-col '>
-            <div ref={imgRef} 
+            <div className='h-auto w-full py-4 gap-4 flex md:gap-4 flex-col '>
+            <div 
             style={{
-                backgroundImage: 'url(/imgs/panelbox.webp)',
+                backgroundImage: 'url(imgs/panelbox.webp)',
              
             }}
-            className={`cust-circle py-4 transition-all duration-1500 ease-in  ${isHeroVis ? 'reveal-imgs' : ''}`}>
+            className={`cust-circle py-4 opacity-0 -translate-x-full rotate-4 transition-all duration-1000 ease-in  ${isHeroVis ? 'rotate-0 opacity-100 translate-x-0 md:translate-x-50' : ''}`}>
                
                 </div>
-            <div ref={img2Ref} 
+            <div
             style={{
-                backgroundImage: 'url(/imgs/huj.jpg)',
+                backgroundImage: 'url(imgs/huj.jpg)',
              
             }}
-            className={`cust-circle py-4 transition-all duration-1500 ease-in ${isAllHeroVis ? 'reveal-img2' : ''}`}>
+            className={`cust-circle py-4 transition-all opacity-0 -translate-x-full rotate-4 duration-1500 ease-in ${isHeroVis ? 'rotate-0 opacity-100 translate-x-0' : ''}`}>
               
                 </div>
                

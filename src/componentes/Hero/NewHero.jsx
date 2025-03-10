@@ -5,11 +5,11 @@ import "../../assets/Newhero.css";
 import ButtonContact from "../Contact/ButtonContact";
 
 const imgs = [
-  "/imgs/huge-hero.jpeg",
-  "/imgs/hugo-tr.jpeg",
-  "/imgs/hugo-fr-o.jpeg",
-  "/imgs/w-img.jpeg",
-  "/imgs/huge-hero2.jpg",
+  "imgs/huge-hero.jpeg",
+  "imgs/hugo-tr.jpeg",
+  "imgs/hugo-fr-o.jpeg",
+  "imgs/w-img.jpeg",
+  "imgs/huge-hero2.jpg",
 ];
 
 const NewHero = () => {
@@ -26,7 +26,7 @@ const NewHero = () => {
 
   return (
     <>
-      <section className="h-[100vh] relative overflow-hidden">
+      <section className="h-[150vh] relative overflow-hidden">
     
         <div
           className="absolute inset-0 w-full h-full bg-cover md:p-12 bg-center bg-no-repeat transition-all duration-4000"

@@ -1,14 +1,13 @@
-import '../../assets/CallButton.css'
 
 const ButtonContact = () => {
   return (
     <div>
-        <a className='call-a-cust flex items-center hover:bg-[#058405c1]' href="tel://+59898414718">
+        <a className='w-max flex-col uppercase text-slate-50 font-black leading-relaxed px-6 py-3 rounded-full bg-[#058406] flex items-center hover:opacity-65' href="tel://+59898414718">
                         
-                  <div className='flex items-center'>
+                  <div className='flex items-center gap-2'>
                   <p className='text-sm md:text-base lg:text-xl'>Contáctanos</p>
                     
-                    <svg className='phone-ico' width="22" height="22" viewBox="0 0 24 24" 
+                    <svg className='w-5 md:w-6 animate-pulse' viewBox="0 0 24 24" 
                     strokeWidth="2" 
                     stroke="currentColor" 
                     fill="none" strokeLinecap="round" 
@@ -20,7 +19,7 @@ const ButtonContact = () => {
                     </svg>
                   </div>
                   <span className='text-xs md:text-sm lg:text-base'>
-                  <small className='p-2'>Lunes a Viernes 9:00 - 18:00</small>
+                  <small className='font-light capitalize'>Lunes a Viernes 9:00 - 18:00</small>
                   </span>  
             </a>
     </div>
