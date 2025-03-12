@@ -1,6 +1,6 @@
 import '../../assets/Form.css'
 import { useForm, ValidationError } from '@formspree/react'
-import { API_KEY } from '../data/form'
+import { API_KEY } from '../../data/form'
 
 export default function Form() {
     const [ state, handleSubmit ] = useForm(API_KEY);

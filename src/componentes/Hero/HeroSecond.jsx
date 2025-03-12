@@ -1,5 +1,6 @@
 import '../../assets/Newhero.css'
 import { useInView } from 'react-intersection-observer';
+import { SwipeCarousel } from './GalleryHero';
 
 
 const HeroSecond = () => {
@@ -36,22 +37,7 @@ const HeroSecond = () => {
                 </section>
             </div>
             <div className='h-auto w-full py-4 gap-4 flex md:gap-4 flex-col '>
-            <div 
-            style={{
-                backgroundImage: 'url(imgs/panelbox.webp)',
-             
-            }}
-            className={`cust-circle py-4 opacity-0 -translate-x-full rotate-4 transition-all duration-1000 ease-in  ${isHeroVis ? 'rotate-0 opacity-100 translate-x-0 md:translate-x-50' : ''}`}>
-               
-                </div>
-            <div
-            style={{
-                backgroundImage: 'url(imgs/huj.jpg)',
-             
-            }}
-            className={`cust-circle py-4 transition-all opacity-0 -translate-x-full rotate-4 duration-1500 ease-in ${isHeroVis ? 'rotate-0 opacity-100 translate-x-0' : ''}`}>
-              
-                </div>
+            <SwipeCarousel/>
                
             </div>
             
