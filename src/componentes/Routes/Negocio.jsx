@@ -18,15 +18,17 @@ export default function Negocio() {
             <input type='radio' name='slides' id='slide-3' />
             <input type='radio' name='slides' id='slide-4' />
             <input type='radio' name='slides' id='slide-5' />
+
+            <input type='radio' name='slides' id='slide-6' />
             <ul className='carousel__slides'>
                 <li className='carousel__slide'>
                     <figure>
                         <div>
-                        <img className='route-imgs' src="/imgs/work-galler/negocios/lighting.jpeg" alt="" />
+                        <img className='route-imgs' src="/imgs/hugo-fr-o.jpeg" alt="" />
                         </div>
                         <figcaption>
-                        Instalaciones completas en entornos corporativos
-                            <span className='job-info'>Realizamos desde iluminación con sistemas eficientes a estaciones de trabajo completas
+                        Diseño de redes e instalaciones
+                            <span className='job-info'>Salto instalaciones es tu equipo de confianza para tus redes de telecomunicaciones
                              </span>
                         </figcaption>
                     </figure>
@@ -34,11 +36,11 @@ export default function Negocio() {
                 <li className='carousel__slide'>
                     <figure>
                         <div>
-                        <img className='route-imgs' src="/imgs/work-galler/negocios/lightsworkspace.jpeg" alt="" />
+                        <img className='route-imgs' src="/imgs/work-galler/fibra-optica/fibra3.jpeg" alt="" />
                         </div>
                         <figcaption>
-                        Instalaciones completas en entornos corporativos
-                            <span className='job-info'>Realizamos desde iluminación con sistemas eficientes a estaciones de trabajo completas
+                        Diseño de redes e instalaciones
+                            <span className='job-info'>Salto instalaciones es tu equipo de confianza para tus redes de telecomunicaciones
                              </span>
                         </figcaption>
                     </figure>
@@ -46,11 +48,11 @@ export default function Negocio() {
                 <li className='carousel__slide'>
                     <figure>
                         <div>
-                        <img className='route-imgs' src="/imgs/work-galler/negocios/lightswork.jpeg" alt="" />
+                        <img className='route-imgs' src="/imgs/work-galler/fibra-optica/fibra5.jpeg" alt="" />
                         </div>
                         <figcaption>
-                        Instalaciones completas en entornos corporativos
-                            <span className='job-info'>Realizamos desde iluminación con sistemas eficientes a estaciones de trabajo completas
+                        Diseño de redes e instalaciones
+                            <span className='job-info'>Salto instalaciones es tu equipo de confianza para tus redes de telecomunicaciones
                              </span>
                         </figcaption>
                     </figure>
@@ -58,11 +60,11 @@ export default function Negocio() {
                 <li className='carousel__slide'>
                     <figure>
                         <div>
-                        <img className='route-imgs' src="/imgs/work-galler/negocios/lightsoff.jpeg" alt="" />
+                        <img className='route-imgs' src="/imgs/work-galler/fibra-optica/fibra4.jpeg" alt="" />
                         </div>
                         <figcaption>
-                        Instalaciones completas en entornos corporativos
-                            <span className='job-info'>Realizamos desde iluminación con sistemas eficientes a estaciones de trabajo completas
+                        Diseño de redes e instalaciones
+                            <span className='job-info'>Salto instalaciones es tu equipo de confianza para tus redes de telecomunicaciones
                              </span>
                         </figcaption>
                     </figure>
@@ -70,11 +72,23 @@ export default function Negocio() {
                 <li className='carousel__slide'>
                     <figure>
                         <div>
-                        <img className='route-imgs' src="/imgs/work-galler/negocios/workspace.jpeg" alt="" />
+                        <img className='route-imgs' src="/imgs/work-galler/fibra-optica/fibra2.jpeg" alt="" />
                         </div>
                         <figcaption>
-                        Instalaciones completas en entornos corporativos
-                            <span className='job-info'>Realizamos desde iluminación con sistemas eficientes a estaciones de trabajo completas
+                        Diseño de redes e instalaciones
+                            <span className='job-info'>Salto instalaciones es tu equipo de confianza para tus redes de telecomunicaciones
+                             </span>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li className='carousel__slide'>
+                    <figure>
+                        <div>
+                        <img className='route-imgs' src="/imgs/work-galler/fibra-optica/fibra1.jpeg" alt="" />
+                        </div>
+                        <figcaption>
+                        Diseño de redes e instalaciones
+                            <span className='job-info'>Salto instalaciones es tu equipo de confianza para tus redes de telecomunicaciones
                              </span>
                         </figcaption>
                     </figure>
@@ -82,21 +96,24 @@ export default function Negocio() {
                
                 </ul>  
             <ul className='carousel__thumbnails'>
-                <li>
-                    <label htmlFor='slide-1'><img src='/imgs/work-galler/negocios/lighting.jpeg' alt="" /></label>
+            <li>
+                    <label htmlFor='slide-1'><img src='/imgs/hugo-fr-o.jpeg' alt="" /></label>
                 </li>
                 <li>
-                    <label htmlFor='slide-2'><img src="/imgs/work-galler/negocios/lightsworkspace.jpeg" alt="" /></label>
+                    <label htmlFor='slide-2'><img src='/imgs/work-galler/fibra-optica/fibra3.jpeg' alt="" /></label>
+                </li>
+                <li>
+                    <label htmlFor='slide-3'><img src="/imgs/work-galler/fibra-optica/fibra5.jpeg" alt="" /></label>
                 </li>
                
                 <li>
-                    <label htmlFor='slide-3'><img src="/imgs/work-galler/negocios/lightswork.jpeg" alt="" /></label>
+                    <label htmlFor='slide-4'><img src="/imgs/work-galler/fibra-optica/fibra4.jpeg" alt="" /></label>
                 </li>
                 <li>
-                    <label htmlFor='slide-4'><img src="/imgs/work-galler/negocios/lightsoff.jpeg"  alt="" /></label>
+                    <label htmlFor='slide-5'><img src="/imgs/work-galler/fibra-optica/fibra2.jpeg"  alt="" /></label>
                 </li>
                 <li>
-                    <label htmlFor='slide-5'><img src="/imgs/work-galler/negocios/workspace.jpeg" alt="" /></label>
+                    <label htmlFor='slide-6'><img src="/imgs/work-galler/fibra-optica/fibra1.jpeg" alt="" /></label>
                 </li>
                
                

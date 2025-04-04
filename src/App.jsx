@@ -18,7 +18,9 @@ function App() {
     <main 
     className='w-full overflow-hidden'
     id='main-app-container'>
-      <Nav />
+    <div className=''>
+    <Nav />
+    </div>
       <HeroComp />
       <Section />
       <Services />

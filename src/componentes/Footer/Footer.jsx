@@ -36,14 +36,14 @@ export default function Footer () {
                     <Link to='/services/panels'>Paneles</Link>
                     <Link to='/services/house'>Vivienda</Link>
                     <Link to='/services/cctv'>Videovigilancia</Link>
-                    <Link to='/services/company'>Empresas</Link>
+                    <Link to='/services/fibra-optica'>Fibra óptica</Link>
                     <Link to='/services/climate'>Climatización de piscinas</Link>
                 </article>
             </section>
             <section className='flex flex-col p-4 gap-2'>
                 <h2 className='text-slate-50 w-max my-2 text-base md:text-xl border-b-2 border-slate-50'>Contacto</h2>
                 <article className='text-slate-50 flex gap-2 flex-col'>
-                    <a className='underline' href="mailto:hugojure@saltoinstalaciones.com">Envianos un mail &#8627;</a>
+                    <a className='underline' href="mailto:hugojure@saltoinstalaciones.com">Envíanos un mail &#8627;</a>
                     <Link to='/contact'>Contacto</Link>
                 </article>
             </section>

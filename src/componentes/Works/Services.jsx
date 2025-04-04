@@ -7,13 +7,14 @@ export default function Services () {
   
   return (
         <>
-    
-    <div className='bg-[#ececec] pt-3 border-2 border-slate-900 gap-4 grid grid-cols-1 md:grid-cols-2'>
-            
-    <div className='flex items-center'>
+   <div className='py-10'>
+   <div className='flex items-center'>
     <h2 className="text-2xl md:text-3xl w-max self-start uppercase mx-4 mb-6 pb-2 pt-4 border-b-4 border-[#0393f8]">
     Servicios</h2>
     </div>
+    <div className='bg-[#ececec] pt-3 border-2 border-slate-900 gap-4 grid grid-cols-1 md:grid-cols-2'>
+            
+    
     <Link to='/services/panels'>
     <Works
       src={'imgs/paneles.jpeg'}
@@ -24,12 +25,12 @@ export default function Services () {
       instalación completa, garantizando un rendimiento optimo y duradero'
     />
     </Link>
-    <Link to='/services/company'>
+    <Link to='/services/fibra-optica'>
     <Works 
-      src={'imgs/business.jpeg'}
-      alt='Instalaciones eléctricas cumpliendo con reglamentación de UTE'
-      title='Técnico autorizado por UTE' 
-      descr='Asesoría, planificación, e instalaciones completas para entornos corporativos'     
+      src={'imgs/networks.jpeg'}
+      alt='Diseño e instalación de redes de telecomunicaciones'
+      title='Asesoría en redes' 
+      descr='Asesoría, planificación e instalaciones de redes de fibra óptica'     
     />
     </Link>
     <Link to='/services/cctv'>
@@ -63,6 +64,7 @@ export default function Services () {
     />
     </Link>
     </div>
+   </div>
       </>
     )
 }

@@ -16,9 +16,9 @@ const Nav = () => {
    
     return (
         <>
-        <header className='flex fixed top-0 z-[9877] backdrop-blur-0 bg-white/20 justify-around md:justify-between items-center rounded-b-xl w-full h-auto shadow-xl'>
+        <header className='flex fixed top-0 z-[9877] background-custom justify-around md:justify-between items-center w-full h-auto shadow-xl'>
 
-        <a href='/' className='md:hidden mix-blend-multiply h-auto mx-3'>
+        <a href='/' className='md:hidden h-auto mx-3'>
         <motion.img 
     src='/imgs/erasebglogo.png' 
     alt='brand logo' 
@@ -35,7 +35,7 @@ const Nav = () => {
 />
             </a>
       <div className="h-auto hidden md:flex md:w-full">
-      <a href='/' className='mix-blend-multiply h-auto mx-3'>
+      <a href='/' className='h-auto mx-3'>
       <motion.img 
     src='/imgs/erasebglogo.png' 
     alt='brand logo' 
@@ -53,14 +53,23 @@ const Nav = () => {
             </a>
 
             <ol className="hidden md:flex justify-center w-3/6 items-center gap-4 uppercase">
-             <Link className="rounded-2xl hover:bg-[#f2f2f2] bg-[#f2f2f244] border p-2" to='/'> 
-             <li className="text-slate-950 font-bold p-2 text-base">Inicio</li>
+             <Link className="relative transition-all duration-500 ease-in font-bold leading-relaxed uppercase
+             before:content-[''] before:absolute before:-bottom-1 before:left-0 before:w-full before:h-[2px] 
+             before:bg-slate-50 before:scale-x-0 before:origin-left before:transition-transform before:duration-500
+             hover:before:scale-x-100" to='/'> 
+             <li className="text-slate-50 font-bold p-2 text-base">Inicio</li>
              </Link>
-             <Link className="rounded-2xl  hover:bg-[#f2f2f2] border p-2 bg-[#f2f2f244]" to='/services'>
-             <li className="text-slate-950 font-bold p-2 text-base">Servicios</li>
+             <Link className="relative transition-all duration-500 ease-in font-bold leading-relaxed uppercase
+             before:content-[''] before:absolute before:-bottom-1 before:left-0 before:w-full before:h-[2px] 
+             before:bg-slate-50 before:scale-x-0 before:origin-left before:transition-transform before:duration-500
+             hover:before:scale-x-100"  to='/services'>
+             <li className="text-slate-50 font-bold p-2 text-base">Servicios</li>
              </Link> 
-             <Link className="rounded-2xl  hover:bg-[#f2f2f2] border p-2 bg-[#f2f2f244]" to='/contact'>
-              <li className="text-slate-950 font-bold p-2 text-base">Contacto</li>
+             <Link className="relative transition-all duration-500 ease-in font-bold leading-relaxed uppercase
+             before:content-[''] before:absolute before:-bottom-1 before:left-0 before:w-full before:h-[2px] 
+             before:bg-slate-50 before:scale-x-0 before:origin-left before:transition-transform before:duration-500
+             hover:before:scale-x-100" to='/contact'>
+              <li className="text-slate-50 font-bold p-2 text-base">Contacto</li>
              </Link>
             </ol>
       </div>
@@ -99,7 +108,7 @@ const Nav = () => {
       </header>
         
         <nav className="md:hidden" >
-       <div className={`${displayMenu} flex flex-col gap-3 justify-center md:items-center`}>
+       <div className={`${displayMenu} background-custom flex flex-col gap-3 justify-center md:items-center`}>
        <ul id='sidenav' className='relative md:hidden'>
         
         <Link to='/'> 
@@ -120,9 +129,9 @@ const Nav = () => {
         </Link>
         
     </ul>
-    <hr className="text-slate-900" />
-    <div className="w-full mt-10 md:text-center">
-            <small className="text-xs md:text-base">Servicio técnico especializado</small>
+    <hr className="text-slate-50" />
+    <div className="w-full mt-10 text-slate-50 md:text-center">
+            <small className="text-base">Servicio técnico especializado</small>
            
             </div>
        </div>
@@ -144,7 +153,7 @@ const AnimatedHamburgerButton = () => {
           initial={false}
           animate={active ? "open" : "closed"}
           onClick={() => setActive((pv) => !pv)}
-          className="relative h-16 w-15 rounded-full bg-white/20 transition-colors hover:bg-white/20"
+          className="relative h-16 w-15 rounded-full transition-colors cursor-pointer"
         >
           <motion.span
             variants={VARIANTS.top}

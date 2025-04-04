@@ -2,12 +2,15 @@ import '../../assets/Contact.css'
 
 export default function Contacto () {
     return (
-        <div id='contact' className="pattern-contact my-4 h-auto grid grid-cols-1 md:grid-cols-2 py-6 px-4">
-<div>
-<h2 className="text-2xl md:text-3xl w-max self-start uppercase m-4 py-2 border-b-4 border-[#0393f8]">
+        <>
+     <div className='h-auto pattern-contact py-10'>
+     <div className='px-4'>
+<h2 className="text-2xl md:text-3xl w-max self-start uppercase py-2 border-b-4 border-[#0393f8]">
 Contacto</h2>
 </div>
-<div className='flex flex-col border-2 max-h-72 shadow-2xl rounded-e-3xl p-4 bg-[#f2f2f248] justify-center backdrop-blur-sm items-center'>
+        <div id='contact' className="h-auto gap-10 grid grid-cols-1 md:grid-cols-2 py-10 px-4">
+
+<div className='flex flex-col border-2 max-h-80 shadow-2xl rounded-e-3xl p-8 bg-[#f2f2f248] justify-center backdrop-blur-sm items-center'>
 <a className='' href="mailto:hugojure@saltoinstalaciones.com">
 <svg className='social-icon email animate-pulse p-4' width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor"
     fill="none" strokeLinecap="round" strokeLinejoin="round"><path stroke="none" d="M0 0h24v24H0z"
@@ -19,7 +22,7 @@ Contacto</h2>
 <p className='text-xl font-medium'>Envianos un mail</p>
 </div>
 
-<div className='flex flex-col border-2 max-h-72 shadow-2xl rounded-e-3xl p-4 bg-[#f2f2f248] justify-center backdrop-blur-sm items-center'>
+<div className='flex flex-col border-2 max-h-80 shadow-2xl rounded-e-3xl p-8 bg-[#f2f2f248] justify-center backdrop-blur-sm items-center'>
 <a className='' href="https://www.instagram.com/saltoinstalaciones/">
 <svg className='social-icon insta animate-pulse p-4' width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" 
 stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -32,7 +35,7 @@ stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
 <p className='text-xl font-black p-2'>También podés chequear nuestros trabajos acá</p>
 </div>
 
-<div className='flex flex-col border-2 max-h-72 shadow-2xl mb-4 rounded-e-3xl p-4 bg-[#f2f2f248] justify-center backdrop-blur-sm items-center'>
+<div className='flex flex-col border-2 max-h-80 shadow-2xl mb-4 rounded-e-3xl p-8 bg-[#f2f2f248] justify-center backdrop-blur-sm items-center'>
 <a className='' href="https://www.facebook.com/salto.salto.9678?mibextid=ZbWKwL">
 <svg className='social-icon face animate-pulse p-4' width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" 
 stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -45,6 +48,8 @@ stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
 </div>
 
 </div>
+     </div>
+</>
     )
 }
 

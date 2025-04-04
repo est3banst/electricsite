@@ -26,7 +26,7 @@ const NewHero = () => {
 
   return (
     <>
-      <section className="h-[150vh] relative overflow-hidden">
+      <section className="h-[100vh] md:grid md:grid-cols-2 relative overflow-hidden">
     
         <div
           className="absolute inset-0 w-full h-full bg-cover md:p-12 bg-center bg-no-repeat transition-all duration-4000"
@@ -34,7 +34,8 @@ const NewHero = () => {
         ></div>
 
         <div className="h-[100vh] w-[100vw] justify-center flex">
-          <div className="custom-hero flex flex-col gap-2 p-4 justify-center w-max mr-4 my-auto">
+          <div className="flex flex-col w-full justify-end">
+            <div className="custom-hero gap-3 w-full flex justify-center flex-col p-4">
             <h1
               ref={titleRef}
               className={`text-xl py-1 md:text-3xl md:py-3 text-slate-100 font-extrabold lg:text-4xl custom-h1 ${
@@ -47,11 +48,11 @@ const NewHero = () => {
               {titletext}
             </small>
             <section className="flex flex-col gap-3 my-2">
-              <p className="text-slate-100 text-sm md:text-base lg:text-xl">
+              <p className="text-slate-100 font-bold text-sm md:text-base lg:text-xl">
                 Especializados en mantenimiento y asesoramiento en el área de la
                 electricidad y la electrónica.
               </p>
-              <p className="text-slate-100 text-sm md:text-base lg:text-xl">
+              <p className="text-slate-100 text-sm font-bold md:text-base lg:text-xl">
                 Planos, puesta en marcha y ejecución de proyectos en
                 infraestructura eléctrica
               </p>
@@ -80,6 +81,7 @@ const NewHero = () => {
                 <path d="M21 21.5v-4.5h-4.5" />
               </svg>
             </a>
+            </div>
           </div>
         </div>
       </section>

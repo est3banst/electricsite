@@ -2,7 +2,7 @@
 const ButtonContact = () => {
   return (
     <div>
-        <a className='w-max flex-col uppercase text-slate-50 font-black leading-relaxed px-6 py-3 rounded-full bg-[#058406] flex items-center hover:opacity-65' href="tel://+59898414718">
+        <a className='w-max flex-col uppercase text-slate-50 font-black leading-relaxed px-6 py-3 rounded-xs bg-[#058406] border-2 flex items-center hover:border-2 hover:border-[#058406] hover:bg-slate-100 hover:text-[#058406]' href="tel://+59898414718">
                         
                   <div className='flex items-center gap-2'>
                   <p className='text-sm md:text-base lg:text-xl'>Contáctanos</p>

@@ -1,10 +1,13 @@
 @import "tailwindcss";
+
 * {
     font-family: 'Inter', serif;
     scrollbar-width: 9px;
     scrollbar-color: #1b940e #f2f2f2;
 }
-
+.background-custom {
+  background: linear-gradient(90deg, rgb(54, 48, 152) 5%, rgb(66, 77, 156) 20%, rgb(65, 129, 199) 46%, rgba(60, 132, 181, 0.748) 95%, rgba(119, 162, 185, 0.889) 100%);
+}
 .container-about {
     min-width: 100%;
     width: 100%;
