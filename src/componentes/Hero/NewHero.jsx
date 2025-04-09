@@ -26,7 +26,7 @@ const NewHero = () => {
 
   return (
     <>
-      <section className="h-[100vh] md:grid md:grid-cols-2 relative overflow-hidden">
+      <section className="h-[100vh] md:h-[150vh] md:grid md:grid-cols-2 relative overflow-hidden">
     
         <div
           className="absolute inset-0 w-full h-full bg-cover md:p-12 bg-center bg-no-repeat transition-all duration-4000"

@@ -97,7 +97,7 @@ const Nav = () => {
 
             </span>
            
-            <div className="grid md:hidden h-full text-slate-800 place-content-center" onClick={settingOpen}>
+            <div className="grid md:hidden h-full place-content-center" onClick={settingOpen}>
              <AnimatedHamburgerButton id="nav-icon1" className={`text-slate-800 ${menuIco}`}>
           
             </AnimatedHamburgerButton> 
@@ -157,17 +157,17 @@ const AnimatedHamburgerButton = () => {
         >
           <motion.span
             variants={VARIANTS.top}
-            className="absolute h-[4px] w-9 bg-slate-900 rounded-full"
+            className="absolute h-[4px] w-9 bg-slate-50 rounded-full"
             style={{ y: "-50%", left: "50%", x: "-50%", top: "35%" }}
           />
           <motion.span
             variants={VARIANTS.middle}
-            className="absolute h-[4px] w-9 bg-slate-900 rounded-full"
+            className="absolute h-[4px] w-9 bg-slate-50 rounded-full"
             style={{ left: "50%", x: "-50%", top: "50%", y: "-50%" }}
           />
           <motion.span
             variants={VARIANTS.bottom}
-            className="absolute h-[4px] w-4 bg-slate-900 rounded-full"
+            className="absolute h-[4px] w-4 bg-slate-50 rounded-full"
             style={{
               x: "-50%",
               y: "50%",
