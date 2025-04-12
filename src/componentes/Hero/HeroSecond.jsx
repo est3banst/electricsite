@@ -12,7 +12,7 @@ const HeroSecond = () => {
     
   return (
     <>
-     <section ref={imgRef} className='background-custom py-24 h-auto w-full m-auto grid grid-cols-1 gap-6 lg:grid-cols-2 p-6'>
+     <section ref={imgRef} className='background-custom py-24 h-auto w-full m-auto grid grid-cols-1 gap-6 overflow-hidden lg:grid-cols-2 p-6'>
             <div  className='h-auto my-3 custom-hero-second'>
                 <h2 className='text-slate-100 p-4 md:text-slate-50 font-bold text-xl md:text-2xl lg:text-3xl'>
                     Soluciones eficientes para tu hogar, empresa o negocio
@@ -34,7 +34,7 @@ const HeroSecond = () => {
                     </p>
                 </section>
             </div>
-            <div className='h-auto w-full py-4 gap-4 flex md:gap-4 flex-col '>
+            <div className='h-full p-4 w-full gap-4 flex md:gap-4 flex-col '>
             <SwipeCarousel/>
                
             </div>

@@ -17,7 +17,7 @@ export default function Services () {
     
     <Link to='/services/panels'>
     <Works
-      src={'imgs/paneles.jpeg'}
+      src={'imgs/panelpro.png'}
       alt='Instalación y mantenimiento de paneles solares'
       title='Paneles solares'
       descr='Nuestro equipo altamente capacitado se encargara de todo 
@@ -35,7 +35,7 @@ export default function Services () {
     </Link>
     <Link to='/services/cctv'>
     <Works 
-      src={'imgs/cameras.jpeg'}
+      src={'imgs/camerainst.jpeg'}
       alt='Instalaciones de sistemas de videovigilancia en el día'
       title='Sistemas de Videovigilancia'
       descr='Asegurá tu propiedad o negocio con nuestras instalaciones
@@ -55,7 +55,7 @@ export default function Services () {
     </Link>
     <Link to='/services/house'>
     <Works 
-      src={'imgs/ilumina.jpeg'}
+      src={'imgs/houseinst.jpeg'}
       alt='Instalaciones, mantenimiento o reparaciones eléctricas en domicilio o comercios'
       title='Instalaciones domiciliarias y mantenimiento eléctrico'
       descr='Desde instalaciones hasta reparaciones, 

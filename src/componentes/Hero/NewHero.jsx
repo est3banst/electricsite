@@ -8,7 +8,9 @@ const imgs = [
   "imgs/huge-hero.jpeg",
   "imgs/hugo-tr.jpeg",
   "imgs/hugo-fr-o.jpeg",
+  "imgs/huheinst.jpeg",
   "imgs/w-img.jpeg",
+  "imgs/cableopt.jpeg",
   "imgs/huge-hero2.jpg",
 ];
 
@@ -26,15 +28,15 @@ const NewHero = () => {
 
   return (
     <>
-      <section className="h-[100vh] md:h-[150vh] md:grid md:grid-cols-2 relative overflow-hidden">
+      <section className="h-[140vh] md:h-[200vh] md:grid md:grid-cols-2 relative overflow-visible">
     
         <div
           className="absolute inset-0 w-full h-full bg-cover md:p-12 bg-center bg-no-repeat transition-all duration-4000"
           style={{ backgroundImage: `url(${imgs[currentImageIndex]})` }}
         ></div>
 
-        <div className="h-[100vh] w-[100vw] justify-center flex">
-          <div className="flex flex-col w-full justify-end">
+        <div className="h-full relative w-full md:items-start justify-center flex">
+          <div className="flex md:sticky md:top-0 md:h-screen flex-col w-full md:justify-end justify-center">
             <div className="custom-hero gap-3 w-full flex justify-center flex-col p-4">
             <h1
               ref={titleRef}

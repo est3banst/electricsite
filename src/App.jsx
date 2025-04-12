@@ -16,7 +16,7 @@ function App() {
   return (
     <>  
     <main 
-    className='w-full overflow-hidden'
+    className='w-full overflow-hidden md:overflow-visible'
     id='main-app-container'>
     <div className=''>
     <Nav />
