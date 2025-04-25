@@ -7,7 +7,7 @@ export default function Whats() {
         target="_blank"
         rel='noopener noreferrer'>
         
-        <div className='custom-whatsapp p-3 fixed text-slate-50 z-[9989] bottom-2 right-2 flex w-max items-center'>
+        <div className='custom-whatsapp p-3 fixed text-slate-50 z-[9989] bottom-3 right-2 flex w-max items-center'>
            <span className="absolute top-0 left-0 bg-red-600 rounded-full w-[18px] h-[18px] custom-animation flex justify-center text-xs font-extralight items-center">1</span>
             <svg className='' width="36" height="36" viewBox="0 0 24 24" strokeWidth="1.5"
             stroke="currentColor" fill="none" strokeLinecap="round" 

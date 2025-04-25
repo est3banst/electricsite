@@ -7,7 +7,7 @@ export default function Footer () {
 
     return (
         <>
-        <footer>
+        <footer className='py-8'>
        <div className='flex flex-col w-full lg:flex-row items-center'>
        <section className='px-6 flex leading-relaxed space-y-1 flex-col gap-5 text-slate-50 py-4 my-4 max-w-full'>
           <h2 className='font-black text-xl md:text-2xl'>Somos tu aliado para que todo funcione perfecto
