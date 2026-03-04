@@ -9,10 +9,8 @@ const Contactanos = () => {
   return (
     <div>
         <Nav />
-        <div className='pt-[96px]'>
         <Contact />
         <Footer />
-        </div>
     </div>
   )
 }

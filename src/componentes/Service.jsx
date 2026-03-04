@@ -10,7 +10,7 @@ const Service = () => {
   return (
     <div>
         <Nav />
-        <div className='pt-[95px]'>
+        <div className=''>
         <Services />
         <Footer />
         </div>
