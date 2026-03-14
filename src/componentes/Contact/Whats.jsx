@@ -9,9 +9,9 @@ export default function Whats() {
   
       <div className="absolute inset-0 rounded-full bg-emerald-500/20 scale-100 group-hover:scale-150 opacity-0 group-hover:opacity-100 transition-all duration-500 blur-md" />
 
-      <div className="relative flex items-center gap-0 group-hover:gap-2 overflow-hidden w-12 group-hover:w-40 transition-all duration-300 ease-in-out h-12 rounded-full bg-slate-900 border border-emerald-500/40 group-hover:border-emerald-400 shadow-[0_0_16px_rgba(16,185,129,0.2)] group-hover:shadow-[0_0_24px_rgba(16,185,129,0.4)] px-3">
+      <div className="relative flex items-center gap-0 group-hover:gap-2 w-12 group-hover:w-40 transition-all duration-300 ease-in-out h-12 rounded-full bg-slate-900 border border-emerald-500/40 group-hover:border-emerald-400 shadow-[0_0_16px_rgba(16,185,129,0.2)] group-hover:shadow-[0_0_24px_rgba(16,185,129,0.4)] px-3">
 
-        <span className="absolute -top-0.5 -right-0.5 w-4 h-4 rounded-full bg-red-500 border-2 border-slate-950 flex items-center justify-center text-[9px] font-bold text-white shadow-[0_0_6px_rgba(239,68,68,0.8)] z-50 animate-pulse">
+        <span className="absolute -top-0.5 -right-0.5 w-4 h-4 rounded-full bg-red-500 border-2 border-slate-950 flex items-center justify-center text-[9px] font-bold text-white shadow-[0_0_6px_rgba(239,68,68,0.8)] z-9999 animate-pulse">
           1
         </span>
 

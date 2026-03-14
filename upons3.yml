@@ -1,0 +1,8 @@
+- name: Web to aws s3
+  hosts: localhost
+  connection: local
+  gather_facts: false
+  tasks:
+    - name: Upload web to S3 
+      command: |
+        aws s3 sync ./dist/ s3://saltoinst-v2 --delete
